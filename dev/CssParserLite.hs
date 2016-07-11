@@ -26,17 +26,17 @@ comment :: Parser CssBlock
 comment = padded (string "/*") *> manyTill anyChar (try $ padded (string "*/")) >>= return.Comment <?> "comment"
 
 rule :: Parser CssBlock
-rule = many1 (noneOf "{};") <* char ';' >>= return.Rule <?> "rule"
+rule = many1 (noneOf "{};") <* (char ';' <|> try (char '}')) >>= return.Rule <?> "rule"
 
 selecters :: Parser [Selecter]
 selecters = label `sepBy1` separaters <?> "selecter"
   where
     label = (classSelecter <|> idSelecter <|> elementSelecter) <* spaces
-    classSelecter = char '.' *> many1 (nameSymbol <|> letter <|> digit) >>= return.ClassSelecter
-    idSelecter = char '#' *> many1 (nameSymbol <|> letter <|> digit) >>= return.IDSelecter
-    elementSelecter = many1 (symbol <|> nameSymbol <|> letter <|> digit) >>= return.ElementSelecter
+    classSelecter = ClassSelecter <$> (char '.' *> many1 (nameSymbol <|> letter <|> digit))
+    idSelecter = IDSelecter <$> (char '#' *> many1 (nameSymbol <|> letter <|> digit))
+    elementSelecter = ElementSelecter <$> many1 (symbol <|> nameSymbol <|> letter <|> digit)
     nameSymbol = oneOf "-_"
-    symbol = oneOf "\\\"*:=[]()|!@%"
+    symbol = oneOf "\\\"*:=[]()|!@%^"
     separaters = skipMany (space <|> oneOf "+~>,")
 
 ruleset :: Parser CssBlock
