@@ -18,7 +18,7 @@ default (T.Text, Int)
 
 main :: IO ()
 main = shelly $ do
-  styleSheet <- print_stdout False $ run "curl" ["https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css"]
+  styleSheet <- print_stdout False $ run "curl" ["https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"]
   let classes = foldMap collectClassSelecter <$> parse css "parse selecter" styleSheet
       classNames = (nub.sort.fmap (mkClassName.T.pack.className)) <$> classes
   echoFileLead
