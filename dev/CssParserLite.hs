@@ -26,7 +26,7 @@ comment :: Parser CssBlock
 comment = padded (string "/*") *> manyTill anyChar (try $ padded (string "*/")) >>= return.Comment <?> "comment"
 
 rule :: Parser CssBlock
-rule = many1 (noneOf "{};") <* (char ';' <|> try (char '}')) >>= return.Rule <?> "rule"
+rule = many1 (noneOf "{};") <* (char ';' <|> lookAhead (char '}')) >>= return.Rule <?> "rule"
 
 selecters :: Parser [Selecter]
 selecters = label `sepBy1` separaters <?> "selecter"

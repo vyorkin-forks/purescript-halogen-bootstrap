@@ -64,6 +64,9 @@ blockquoteReverse = className "blockquote-reverse"
 breadcrumb :: ClassName
 breadcrumb = className "breadcrumb"
 
+breadcrumbItem :: ClassName
+breadcrumbItem = className "breadcrumb-item"
+
 bsTetherElementAttachedBottom :: ClassName
 bsTetherElementAttachedBottom = className "bs-tether-element-attached-bottom"
 
@@ -85,9 +88,6 @@ btnBlock = className "btn-block"
 btnDanger :: ClassName
 btnDanger = className "btn-danger"
 
-btnDangerOutline :: ClassName
-btnDangerOutline = className "btn-danger-outline"
-
 btnGroup :: ClassName
 btnGroup = className "btn-group"
 
@@ -103,26 +103,35 @@ btnGroupVertical = className "btn-group-vertical"
 btnInfo :: ClassName
 btnInfo = className "btn-info"
 
-btnInfoOutline :: ClassName
-btnInfoOutline = className "btn-info-outline"
-
 btnLg :: ClassName
 btnLg = className "btn-lg"
 
 btnLink :: ClassName
 btnLink = className "btn-link"
 
+btnOutlineDanger :: ClassName
+btnOutlineDanger = className "btn-outline-danger"
+
+btnOutlineInfo :: ClassName
+btnOutlineInfo = className "btn-outline-info"
+
+btnOutlinePrimary :: ClassName
+btnOutlinePrimary = className "btn-outline-primary"
+
+btnOutlineSecondary :: ClassName
+btnOutlineSecondary = className "btn-outline-secondary"
+
+btnOutlineSuccess :: ClassName
+btnOutlineSuccess = className "btn-outline-success"
+
+btnOutlineWarning :: ClassName
+btnOutlineWarning = className "btn-outline-warning"
+
 btnPrimary :: ClassName
 btnPrimary = className "btn-primary"
 
-btnPrimaryOutline :: ClassName
-btnPrimaryOutline = className "btn-primary-outline"
-
 btnSecondary :: ClassName
 btnSecondary = className "btn-secondary"
-
-btnSecondaryOutline :: ClassName
-btnSecondaryOutline = className "btn-secondary-outline"
 
 btnSm :: ClassName
 btnSm = className "btn-sm"
@@ -130,38 +139,11 @@ btnSm = className "btn-sm"
 btnSuccess :: ClassName
 btnSuccess = className "btn-success"
 
-btnSuccessOutline :: ClassName
-btnSuccessOutline = className "btn-success-outline"
-
 btnToolbar :: ClassName
 btnToolbar = className "btn-toolbar"
 
 btnWarning :: ClassName
 btnWarning = className "btn-warning"
-
-btnWarningOutline :: ClassName
-btnWarningOutline = className "btn-warning-outline"
-
-cCheckbox :: ClassName
-cCheckbox = className "c-checkbox"
-
-cIndicator :: ClassName
-cIndicator = className "c-indicator"
-
-cInput :: ClassName
-cInput = className "c-input"
-
-cInputsStacked :: ClassName
-cInputsStacked = className "c-inputs-stacked"
-
-cRadio :: ClassName
-cRadio = className "c-radio"
-
-cSelect :: ClassName
-cSelect = className "c-select"
-
-cSelectSm :: ClassName
-cSelectSm = className "c-select-sm"
 
 card :: ClassName
 card = className "card"
@@ -178,9 +160,6 @@ cardColumns = className "card-columns"
 cardDanger :: ClassName
 cardDanger = className "card-danger"
 
-cardDangerOutline :: ClassName
-cardDangerOutline = className "card-danger-outline"
-
 cardDeck :: ClassName
 cardDeck = className "card-deck"
 
@@ -195,6 +174,12 @@ cardGroup = className "card-group"
 
 cardHeader :: ClassName
 cardHeader = className "card-header"
+
+cardHeaderPills :: ClassName
+cardHeaderPills = className "card-header-pills"
+
+cardHeaderTabs :: ClassName
+cardHeaderTabs = className "card-header-tabs"
 
 cardImg :: ClassName
 cardImg = className "card-img"
@@ -211,32 +196,38 @@ cardImgTop = className "card-img-top"
 cardInfo :: ClassName
 cardInfo = className "card-info"
 
-cardInfoOutline :: ClassName
-cardInfoOutline = className "card-info-outline"
-
 cardInverse :: ClassName
 cardInverse = className "card-inverse"
 
 cardLink :: ClassName
 cardLink = className "card-link"
 
+cardOutlineDanger :: ClassName
+cardOutlineDanger = className "card-outline-danger"
+
+cardOutlineInfo :: ClassName
+cardOutlineInfo = className "card-outline-info"
+
+cardOutlinePrimary :: ClassName
+cardOutlinePrimary = className "card-outline-primary"
+
+cardOutlineSecondary :: ClassName
+cardOutlineSecondary = className "card-outline-secondary"
+
+cardOutlineSuccess :: ClassName
+cardOutlineSuccess = className "card-outline-success"
+
+cardOutlineWarning :: ClassName
+cardOutlineWarning = className "card-outline-warning"
+
 cardPrimary :: ClassName
 cardPrimary = className "card-primary"
-
-cardPrimaryOutline :: ClassName
-cardPrimaryOutline = className "card-primary-outline"
-
-cardSecondaryOutline :: ClassName
-cardSecondaryOutline = className "card-secondary-outline"
 
 cardSubtitle :: ClassName
 cardSubtitle = className "card-subtitle"
 
 cardSuccess :: ClassName
 cardSuccess = className "card-success"
-
-cardSuccessOutline :: ClassName
-cardSuccessOutline = className "card-success-outline"
 
 cardText :: ClassName
 cardText = className "card-text"
@@ -246,9 +237,6 @@ cardTitle = className "card-title"
 
 cardWarning :: ClassName
 cardWarning = className "card-warning"
-
-cardWarningOutline :: ClassName
-cardWarningOutline = className "card-warning-outline"
 
 caret :: ClassName
 caret = className "caret"
@@ -271,9 +259,6 @@ carouselInner = className "carousel-inner"
 carouselItem :: ClassName
 carouselItem = className "carousel-item"
 
-centerBlock :: ClassName
-centerBlock = className "center-block"
-
 checkbox :: ClassName
 checkbox = className "checkbox"
 
@@ -285,6 +270,18 @@ clearfix = className "clearfix"
 
 close :: ClassName
 close = className "close"
+
+colFormLabel :: ClassName
+colFormLabel = className "col-form-label"
+
+colFormLabelLg :: ClassName
+colFormLabelLg = className "col-form-label-lg"
+
+colFormLabelSm :: ClassName
+colFormLabelSm = className "col-form-label-sm"
+
+colFormLegend :: ClassName
+colFormLegend = className "col-form-legend"
 
 colLg1 :: ClassName
 colLg1 = className "col-lg-1"
@@ -322,123 +319,6 @@ colLg8 = className "col-lg-8"
 colLg9 :: ClassName
 colLg9 = className "col-lg-9"
 
-colLgOffset0 :: ClassName
-colLgOffset0 = className "col-lg-offset-0"
-
-colLgOffset1 :: ClassName
-colLgOffset1 = className "col-lg-offset-1"
-
-colLgOffset10 :: ClassName
-colLgOffset10 = className "col-lg-offset-10"
-
-colLgOffset11 :: ClassName
-colLgOffset11 = className "col-lg-offset-11"
-
-colLgOffset12 :: ClassName
-colLgOffset12 = className "col-lg-offset-12"
-
-colLgOffset2 :: ClassName
-colLgOffset2 = className "col-lg-offset-2"
-
-colLgOffset3 :: ClassName
-colLgOffset3 = className "col-lg-offset-3"
-
-colLgOffset4 :: ClassName
-colLgOffset4 = className "col-lg-offset-4"
-
-colLgOffset5 :: ClassName
-colLgOffset5 = className "col-lg-offset-5"
-
-colLgOffset6 :: ClassName
-colLgOffset6 = className "col-lg-offset-6"
-
-colLgOffset7 :: ClassName
-colLgOffset7 = className "col-lg-offset-7"
-
-colLgOffset8 :: ClassName
-colLgOffset8 = className "col-lg-offset-8"
-
-colLgOffset9 :: ClassName
-colLgOffset9 = className "col-lg-offset-9"
-
-colLgPull0 :: ClassName
-colLgPull0 = className "col-lg-pull-0"
-
-colLgPull1 :: ClassName
-colLgPull1 = className "col-lg-pull-1"
-
-colLgPull10 :: ClassName
-colLgPull10 = className "col-lg-pull-10"
-
-colLgPull11 :: ClassName
-colLgPull11 = className "col-lg-pull-11"
-
-colLgPull12 :: ClassName
-colLgPull12 = className "col-lg-pull-12"
-
-colLgPull2 :: ClassName
-colLgPull2 = className "col-lg-pull-2"
-
-colLgPull3 :: ClassName
-colLgPull3 = className "col-lg-pull-3"
-
-colLgPull4 :: ClassName
-colLgPull4 = className "col-lg-pull-4"
-
-colLgPull5 :: ClassName
-colLgPull5 = className "col-lg-pull-5"
-
-colLgPull6 :: ClassName
-colLgPull6 = className "col-lg-pull-6"
-
-colLgPull7 :: ClassName
-colLgPull7 = className "col-lg-pull-7"
-
-colLgPull8 :: ClassName
-colLgPull8 = className "col-lg-pull-8"
-
-colLgPull9 :: ClassName
-colLgPull9 = className "col-lg-pull-9"
-
-colLgPush0 :: ClassName
-colLgPush0 = className "col-lg-push-0"
-
-colLgPush1 :: ClassName
-colLgPush1 = className "col-lg-push-1"
-
-colLgPush10 :: ClassName
-colLgPush10 = className "col-lg-push-10"
-
-colLgPush11 :: ClassName
-colLgPush11 = className "col-lg-push-11"
-
-colLgPush12 :: ClassName
-colLgPush12 = className "col-lg-push-12"
-
-colLgPush2 :: ClassName
-colLgPush2 = className "col-lg-push-2"
-
-colLgPush3 :: ClassName
-colLgPush3 = className "col-lg-push-3"
-
-colLgPush4 :: ClassName
-colLgPush4 = className "col-lg-push-4"
-
-colLgPush5 :: ClassName
-colLgPush5 = className "col-lg-push-5"
-
-colLgPush6 :: ClassName
-colLgPush6 = className "col-lg-push-6"
-
-colLgPush7 :: ClassName
-colLgPush7 = className "col-lg-push-7"
-
-colLgPush8 :: ClassName
-colLgPush8 = className "col-lg-push-8"
-
-colLgPush9 :: ClassName
-colLgPush9 = className "col-lg-push-9"
-
 colMd1 :: ClassName
 colMd1 = className "col-md-1"
 
@@ -474,123 +354,6 @@ colMd8 = className "col-md-8"
 
 colMd9 :: ClassName
 colMd9 = className "col-md-9"
-
-colMdOffset0 :: ClassName
-colMdOffset0 = className "col-md-offset-0"
-
-colMdOffset1 :: ClassName
-colMdOffset1 = className "col-md-offset-1"
-
-colMdOffset10 :: ClassName
-colMdOffset10 = className "col-md-offset-10"
-
-colMdOffset11 :: ClassName
-colMdOffset11 = className "col-md-offset-11"
-
-colMdOffset12 :: ClassName
-colMdOffset12 = className "col-md-offset-12"
-
-colMdOffset2 :: ClassName
-colMdOffset2 = className "col-md-offset-2"
-
-colMdOffset3 :: ClassName
-colMdOffset3 = className "col-md-offset-3"
-
-colMdOffset4 :: ClassName
-colMdOffset4 = className "col-md-offset-4"
-
-colMdOffset5 :: ClassName
-colMdOffset5 = className "col-md-offset-5"
-
-colMdOffset6 :: ClassName
-colMdOffset6 = className "col-md-offset-6"
-
-colMdOffset7 :: ClassName
-colMdOffset7 = className "col-md-offset-7"
-
-colMdOffset8 :: ClassName
-colMdOffset8 = className "col-md-offset-8"
-
-colMdOffset9 :: ClassName
-colMdOffset9 = className "col-md-offset-9"
-
-colMdPull0 :: ClassName
-colMdPull0 = className "col-md-pull-0"
-
-colMdPull1 :: ClassName
-colMdPull1 = className "col-md-pull-1"
-
-colMdPull10 :: ClassName
-colMdPull10 = className "col-md-pull-10"
-
-colMdPull11 :: ClassName
-colMdPull11 = className "col-md-pull-11"
-
-colMdPull12 :: ClassName
-colMdPull12 = className "col-md-pull-12"
-
-colMdPull2 :: ClassName
-colMdPull2 = className "col-md-pull-2"
-
-colMdPull3 :: ClassName
-colMdPull3 = className "col-md-pull-3"
-
-colMdPull4 :: ClassName
-colMdPull4 = className "col-md-pull-4"
-
-colMdPull5 :: ClassName
-colMdPull5 = className "col-md-pull-5"
-
-colMdPull6 :: ClassName
-colMdPull6 = className "col-md-pull-6"
-
-colMdPull7 :: ClassName
-colMdPull7 = className "col-md-pull-7"
-
-colMdPull8 :: ClassName
-colMdPull8 = className "col-md-pull-8"
-
-colMdPull9 :: ClassName
-colMdPull9 = className "col-md-pull-9"
-
-colMdPush0 :: ClassName
-colMdPush0 = className "col-md-push-0"
-
-colMdPush1 :: ClassName
-colMdPush1 = className "col-md-push-1"
-
-colMdPush10 :: ClassName
-colMdPush10 = className "col-md-push-10"
-
-colMdPush11 :: ClassName
-colMdPush11 = className "col-md-push-11"
-
-colMdPush12 :: ClassName
-colMdPush12 = className "col-md-push-12"
-
-colMdPush2 :: ClassName
-colMdPush2 = className "col-md-push-2"
-
-colMdPush3 :: ClassName
-colMdPush3 = className "col-md-push-3"
-
-colMdPush4 :: ClassName
-colMdPush4 = className "col-md-push-4"
-
-colMdPush5 :: ClassName
-colMdPush5 = className "col-md-push-5"
-
-colMdPush6 :: ClassName
-colMdPush6 = className "col-md-push-6"
-
-colMdPush7 :: ClassName
-colMdPush7 = className "col-md-push-7"
-
-colMdPush8 :: ClassName
-colMdPush8 = className "col-md-push-8"
-
-colMdPush9 :: ClassName
-colMdPush9 = className "col-md-push-9"
 
 colSm1 :: ClassName
 colSm1 = className "col-sm-1"
@@ -628,123 +391,6 @@ colSm8 = className "col-sm-8"
 colSm9 :: ClassName
 colSm9 = className "col-sm-9"
 
-colSmOffset0 :: ClassName
-colSmOffset0 = className "col-sm-offset-0"
-
-colSmOffset1 :: ClassName
-colSmOffset1 = className "col-sm-offset-1"
-
-colSmOffset10 :: ClassName
-colSmOffset10 = className "col-sm-offset-10"
-
-colSmOffset11 :: ClassName
-colSmOffset11 = className "col-sm-offset-11"
-
-colSmOffset12 :: ClassName
-colSmOffset12 = className "col-sm-offset-12"
-
-colSmOffset2 :: ClassName
-colSmOffset2 = className "col-sm-offset-2"
-
-colSmOffset3 :: ClassName
-colSmOffset3 = className "col-sm-offset-3"
-
-colSmOffset4 :: ClassName
-colSmOffset4 = className "col-sm-offset-4"
-
-colSmOffset5 :: ClassName
-colSmOffset5 = className "col-sm-offset-5"
-
-colSmOffset6 :: ClassName
-colSmOffset6 = className "col-sm-offset-6"
-
-colSmOffset7 :: ClassName
-colSmOffset7 = className "col-sm-offset-7"
-
-colSmOffset8 :: ClassName
-colSmOffset8 = className "col-sm-offset-8"
-
-colSmOffset9 :: ClassName
-colSmOffset9 = className "col-sm-offset-9"
-
-colSmPull0 :: ClassName
-colSmPull0 = className "col-sm-pull-0"
-
-colSmPull1 :: ClassName
-colSmPull1 = className "col-sm-pull-1"
-
-colSmPull10 :: ClassName
-colSmPull10 = className "col-sm-pull-10"
-
-colSmPull11 :: ClassName
-colSmPull11 = className "col-sm-pull-11"
-
-colSmPull12 :: ClassName
-colSmPull12 = className "col-sm-pull-12"
-
-colSmPull2 :: ClassName
-colSmPull2 = className "col-sm-pull-2"
-
-colSmPull3 :: ClassName
-colSmPull3 = className "col-sm-pull-3"
-
-colSmPull4 :: ClassName
-colSmPull4 = className "col-sm-pull-4"
-
-colSmPull5 :: ClassName
-colSmPull5 = className "col-sm-pull-5"
-
-colSmPull6 :: ClassName
-colSmPull6 = className "col-sm-pull-6"
-
-colSmPull7 :: ClassName
-colSmPull7 = className "col-sm-pull-7"
-
-colSmPull8 :: ClassName
-colSmPull8 = className "col-sm-pull-8"
-
-colSmPull9 :: ClassName
-colSmPull9 = className "col-sm-pull-9"
-
-colSmPush0 :: ClassName
-colSmPush0 = className "col-sm-push-0"
-
-colSmPush1 :: ClassName
-colSmPush1 = className "col-sm-push-1"
-
-colSmPush10 :: ClassName
-colSmPush10 = className "col-sm-push-10"
-
-colSmPush11 :: ClassName
-colSmPush11 = className "col-sm-push-11"
-
-colSmPush12 :: ClassName
-colSmPush12 = className "col-sm-push-12"
-
-colSmPush2 :: ClassName
-colSmPush2 = className "col-sm-push-2"
-
-colSmPush3 :: ClassName
-colSmPush3 = className "col-sm-push-3"
-
-colSmPush4 :: ClassName
-colSmPush4 = className "col-sm-push-4"
-
-colSmPush5 :: ClassName
-colSmPush5 = className "col-sm-push-5"
-
-colSmPush6 :: ClassName
-colSmPush6 = className "col-sm-push-6"
-
-colSmPush7 :: ClassName
-colSmPush7 = className "col-sm-push-7"
-
-colSmPush8 :: ClassName
-colSmPush8 = className "col-sm-push-8"
-
-colSmPush9 :: ClassName
-colSmPush9 = className "col-sm-push-9"
-
 colXl1 :: ClassName
 colXl1 = className "col-xl-1"
 
@@ -780,123 +426,6 @@ colXl8 = className "col-xl-8"
 
 colXl9 :: ClassName
 colXl9 = className "col-xl-9"
-
-colXlOffset0 :: ClassName
-colXlOffset0 = className "col-xl-offset-0"
-
-colXlOffset1 :: ClassName
-colXlOffset1 = className "col-xl-offset-1"
-
-colXlOffset10 :: ClassName
-colXlOffset10 = className "col-xl-offset-10"
-
-colXlOffset11 :: ClassName
-colXlOffset11 = className "col-xl-offset-11"
-
-colXlOffset12 :: ClassName
-colXlOffset12 = className "col-xl-offset-12"
-
-colXlOffset2 :: ClassName
-colXlOffset2 = className "col-xl-offset-2"
-
-colXlOffset3 :: ClassName
-colXlOffset3 = className "col-xl-offset-3"
-
-colXlOffset4 :: ClassName
-colXlOffset4 = className "col-xl-offset-4"
-
-colXlOffset5 :: ClassName
-colXlOffset5 = className "col-xl-offset-5"
-
-colXlOffset6 :: ClassName
-colXlOffset6 = className "col-xl-offset-6"
-
-colXlOffset7 :: ClassName
-colXlOffset7 = className "col-xl-offset-7"
-
-colXlOffset8 :: ClassName
-colXlOffset8 = className "col-xl-offset-8"
-
-colXlOffset9 :: ClassName
-colXlOffset9 = className "col-xl-offset-9"
-
-colXlPull0 :: ClassName
-colXlPull0 = className "col-xl-pull-0"
-
-colXlPull1 :: ClassName
-colXlPull1 = className "col-xl-pull-1"
-
-colXlPull10 :: ClassName
-colXlPull10 = className "col-xl-pull-10"
-
-colXlPull11 :: ClassName
-colXlPull11 = className "col-xl-pull-11"
-
-colXlPull12 :: ClassName
-colXlPull12 = className "col-xl-pull-12"
-
-colXlPull2 :: ClassName
-colXlPull2 = className "col-xl-pull-2"
-
-colXlPull3 :: ClassName
-colXlPull3 = className "col-xl-pull-3"
-
-colXlPull4 :: ClassName
-colXlPull4 = className "col-xl-pull-4"
-
-colXlPull5 :: ClassName
-colXlPull5 = className "col-xl-pull-5"
-
-colXlPull6 :: ClassName
-colXlPull6 = className "col-xl-pull-6"
-
-colXlPull7 :: ClassName
-colXlPull7 = className "col-xl-pull-7"
-
-colXlPull8 :: ClassName
-colXlPull8 = className "col-xl-pull-8"
-
-colXlPull9 :: ClassName
-colXlPull9 = className "col-xl-pull-9"
-
-colXlPush0 :: ClassName
-colXlPush0 = className "col-xl-push-0"
-
-colXlPush1 :: ClassName
-colXlPush1 = className "col-xl-push-1"
-
-colXlPush10 :: ClassName
-colXlPush10 = className "col-xl-push-10"
-
-colXlPush11 :: ClassName
-colXlPush11 = className "col-xl-push-11"
-
-colXlPush12 :: ClassName
-colXlPush12 = className "col-xl-push-12"
-
-colXlPush2 :: ClassName
-colXlPush2 = className "col-xl-push-2"
-
-colXlPush3 :: ClassName
-colXlPush3 = className "col-xl-push-3"
-
-colXlPush4 :: ClassName
-colXlPush4 = className "col-xl-push-4"
-
-colXlPush5 :: ClassName
-colXlPush5 = className "col-xl-push-5"
-
-colXlPush6 :: ClassName
-colXlPush6 = className "col-xl-push-6"
-
-colXlPush7 :: ClassName
-colXlPush7 = className "col-xl-push-7"
-
-colXlPush8 :: ClassName
-colXlPush8 = className "col-xl-push-8"
-
-colXlPush9 :: ClassName
-colXlPush9 = className "col-xl-push-9"
 
 colXs1 :: ClassName
 colXs1 = className "col-xs-1"
@@ -934,123 +463,6 @@ colXs8 = className "col-xs-8"
 colXs9 :: ClassName
 colXs9 = className "col-xs-9"
 
-colXsOffset0 :: ClassName
-colXsOffset0 = className "col-xs-offset-0"
-
-colXsOffset1 :: ClassName
-colXsOffset1 = className "col-xs-offset-1"
-
-colXsOffset10 :: ClassName
-colXsOffset10 = className "col-xs-offset-10"
-
-colXsOffset11 :: ClassName
-colXsOffset11 = className "col-xs-offset-11"
-
-colXsOffset12 :: ClassName
-colXsOffset12 = className "col-xs-offset-12"
-
-colXsOffset2 :: ClassName
-colXsOffset2 = className "col-xs-offset-2"
-
-colXsOffset3 :: ClassName
-colXsOffset3 = className "col-xs-offset-3"
-
-colXsOffset4 :: ClassName
-colXsOffset4 = className "col-xs-offset-4"
-
-colXsOffset5 :: ClassName
-colXsOffset5 = className "col-xs-offset-5"
-
-colXsOffset6 :: ClassName
-colXsOffset6 = className "col-xs-offset-6"
-
-colXsOffset7 :: ClassName
-colXsOffset7 = className "col-xs-offset-7"
-
-colXsOffset8 :: ClassName
-colXsOffset8 = className "col-xs-offset-8"
-
-colXsOffset9 :: ClassName
-colXsOffset9 = className "col-xs-offset-9"
-
-colXsPull0 :: ClassName
-colXsPull0 = className "col-xs-pull-0"
-
-colXsPull1 :: ClassName
-colXsPull1 = className "col-xs-pull-1"
-
-colXsPull10 :: ClassName
-colXsPull10 = className "col-xs-pull-10"
-
-colXsPull11 :: ClassName
-colXsPull11 = className "col-xs-pull-11"
-
-colXsPull12 :: ClassName
-colXsPull12 = className "col-xs-pull-12"
-
-colXsPull2 :: ClassName
-colXsPull2 = className "col-xs-pull-2"
-
-colXsPull3 :: ClassName
-colXsPull3 = className "col-xs-pull-3"
-
-colXsPull4 :: ClassName
-colXsPull4 = className "col-xs-pull-4"
-
-colXsPull5 :: ClassName
-colXsPull5 = className "col-xs-pull-5"
-
-colXsPull6 :: ClassName
-colXsPull6 = className "col-xs-pull-6"
-
-colXsPull7 :: ClassName
-colXsPull7 = className "col-xs-pull-7"
-
-colXsPull8 :: ClassName
-colXsPull8 = className "col-xs-pull-8"
-
-colXsPull9 :: ClassName
-colXsPull9 = className "col-xs-pull-9"
-
-colXsPush0 :: ClassName
-colXsPush0 = className "col-xs-push-0"
-
-colXsPush1 :: ClassName
-colXsPush1 = className "col-xs-push-1"
-
-colXsPush10 :: ClassName
-colXsPush10 = className "col-xs-push-10"
-
-colXsPush11 :: ClassName
-colXsPush11 = className "col-xs-push-11"
-
-colXsPush12 :: ClassName
-colXsPush12 = className "col-xs-push-12"
-
-colXsPush2 :: ClassName
-colXsPush2 = className "col-xs-push-2"
-
-colXsPush3 :: ClassName
-colXsPush3 = className "col-xs-push-3"
-
-colXsPush4 :: ClassName
-colXsPush4 = className "col-xs-push-4"
-
-colXsPush5 :: ClassName
-colXsPush5 = className "col-xs-push-5"
-
-colXsPush6 :: ClassName
-colXsPush6 = className "col-xs-push-6"
-
-colXsPush7 :: ClassName
-colXsPush7 = className "col-xs-push-7"
-
-colXsPush8 :: ClassName
-colXsPush8 = className "col-xs-push-8"
-
-colXsPush9 :: ClassName
-colXsPush9 = className "col-xs-push-9"
-
 collapse :: ClassName
 collapse = className "collapse"
 
@@ -1062,6 +474,51 @@ container = className "container"
 
 containerFluid :: ClassName
 containerFluid = className "container-fluid"
+
+customCheckbox :: ClassName
+customCheckbox = className "custom-checkbox"
+
+customControl :: ClassName
+customControl = className "custom-control"
+
+customControlDescription :: ClassName
+customControlDescription = className "custom-control-description"
+
+customControlIndicator :: ClassName
+customControlIndicator = className "custom-control-indicator"
+
+customControlInput :: ClassName
+customControlInput = className "custom-control-input"
+
+customControlsStacked :: ClassName
+customControlsStacked = className "custom-controls-stacked"
+
+customFile :: ClassName
+customFile = className "custom-file"
+
+customFileControl :: ClassName
+customFileControl = className "custom-file-control"
+
+customFileInput :: ClassName
+customFileInput = className "custom-file-input"
+
+customRadio :: ClassName
+customRadio = className "custom-radio"
+
+customSelect :: ClassName
+customSelect = className "custom-select"
+
+customSelectSm :: ClassName
+customSelectSm = className "custom-select-sm"
+
+dBlock :: ClassName
+dBlock = className "d-block"
+
+dInline :: ClassName
+dInline = className "d-inline"
+
+dInlineBlock :: ClassName
+dInlineBlock = className "d-inline-block"
 
 disabled :: ClassName
 disabled = className "disabled"
@@ -1077,9 +534,6 @@ display3 = className "display-3"
 
 display4 :: ClassName
 display4 = className "display-4"
-
-dlHorizontal :: ClassName
-dlHorizontal = className "dl-horizontal"
 
 dropdown :: ClassName
 dropdown = className "dropdown"
@@ -1107,6 +561,9 @@ dropdownMenuRight = className "dropdown-menu-right"
 
 dropdownToggle :: ClassName
 dropdownToggle = className "dropdown-toggle"
+
+dropdownToggleSplit :: ClassName
+dropdownToggleSplit = className "dropdown-toggle-split"
 
 dropup :: ClassName
 dropup = className "dropup"
@@ -1141,12 +598,6 @@ figureCaption = className "figure-caption"
 figureImg :: ClassName
 figureImg = className "figure-img"
 
-file :: ClassName
-file = className "file"
-
-fileCustom :: ClassName
-fileCustom = className "file-custom"
-
 focus :: ClassName
 focus = className "focus"
 
@@ -1158,6 +609,18 @@ fontWeightBold = className "font-weight-bold"
 
 fontWeightNormal :: ClassName
 fontWeightNormal = className "font-weight-normal"
+
+formCheck :: ClassName
+formCheck = className "form-check"
+
+formCheckInline :: ClassName
+formCheckInline = className "form-check-inline"
+
+formCheckInput :: ClassName
+formCheckInput = className "form-check-input"
+
+formCheckLabel :: ClassName
+formCheckLabel = className "form-check-label"
 
 formControl :: ClassName
 formControl = className "form-control"
@@ -1197,6 +660,9 @@ formGroup = className "form-group"
 
 formInline :: ClassName
 formInline = className "form-inline"
+
+formText :: ClassName
+formText = className "form-text"
 
 h1 :: ClassName
 h1 = className "h1"
@@ -1300,12 +766,6 @@ inputGroupLg = className "input-group-lg"
 inputGroupSm :: ClassName
 inputGroupSm = className "input-group-sm"
 
-inputLg :: ClassName
-inputLg = className "input-lg"
-
-inputSm :: ClassName
-inputSm = className "input-sm"
-
 invisible :: ClassName
 invisible = className "invisible"
 
@@ -1317,30 +777,6 @@ jumbotronFluid = className "jumbotron-fluid"
 
 jumbotronHr :: ClassName
 jumbotronHr = className "jumbotron-hr"
-
-label :: ClassName
-label = className "label"
-
-labelDanger :: ClassName
-labelDanger = className "label-danger"
-
-labelDefault :: ClassName
-labelDefault = className "label-default"
-
-labelInfo :: ClassName
-labelInfo = className "label-info"
-
-labelPill :: ClassName
-labelPill = className "label-pill"
-
-labelPrimary :: ClassName
-labelPrimary = className "label-primary"
-
-labelSuccess :: ClassName
-labelSuccess = className "label-success"
-
-labelWarning :: ClassName
-labelWarning = className "label-warning"
 
 lead :: ClassName
 lead = className "lead"
@@ -1356,6 +792,9 @@ listGroupFlush = className "list-group-flush"
 
 listGroupItem :: ClassName
 listGroupItem = className "list-group-item"
+
+listGroupItemAction :: ClassName
+listGroupItemAction = className "list-group-item-action"
 
 listGroupItemDanger :: ClassName
 listGroupItemDanger = className "list-group-item-danger"
@@ -1603,6 +1042,183 @@ navbarToggler = className "navbar-toggler"
 next :: ClassName
 next = className "next"
 
+offsetLg0 :: ClassName
+offsetLg0 = className "offset-lg-0"
+
+offsetLg1 :: ClassName
+offsetLg1 = className "offset-lg-1"
+
+offsetLg10 :: ClassName
+offsetLg10 = className "offset-lg-10"
+
+offsetLg11 :: ClassName
+offsetLg11 = className "offset-lg-11"
+
+offsetLg2 :: ClassName
+offsetLg2 = className "offset-lg-2"
+
+offsetLg3 :: ClassName
+offsetLg3 = className "offset-lg-3"
+
+offsetLg4 :: ClassName
+offsetLg4 = className "offset-lg-4"
+
+offsetLg5 :: ClassName
+offsetLg5 = className "offset-lg-5"
+
+offsetLg6 :: ClassName
+offsetLg6 = className "offset-lg-6"
+
+offsetLg7 :: ClassName
+offsetLg7 = className "offset-lg-7"
+
+offsetLg8 :: ClassName
+offsetLg8 = className "offset-lg-8"
+
+offsetLg9 :: ClassName
+offsetLg9 = className "offset-lg-9"
+
+offsetMd0 :: ClassName
+offsetMd0 = className "offset-md-0"
+
+offsetMd1 :: ClassName
+offsetMd1 = className "offset-md-1"
+
+offsetMd10 :: ClassName
+offsetMd10 = className "offset-md-10"
+
+offsetMd11 :: ClassName
+offsetMd11 = className "offset-md-11"
+
+offsetMd2 :: ClassName
+offsetMd2 = className "offset-md-2"
+
+offsetMd3 :: ClassName
+offsetMd3 = className "offset-md-3"
+
+offsetMd4 :: ClassName
+offsetMd4 = className "offset-md-4"
+
+offsetMd5 :: ClassName
+offsetMd5 = className "offset-md-5"
+
+offsetMd6 :: ClassName
+offsetMd6 = className "offset-md-6"
+
+offsetMd7 :: ClassName
+offsetMd7 = className "offset-md-7"
+
+offsetMd8 :: ClassName
+offsetMd8 = className "offset-md-8"
+
+offsetMd9 :: ClassName
+offsetMd9 = className "offset-md-9"
+
+offsetSm0 :: ClassName
+offsetSm0 = className "offset-sm-0"
+
+offsetSm1 :: ClassName
+offsetSm1 = className "offset-sm-1"
+
+offsetSm10 :: ClassName
+offsetSm10 = className "offset-sm-10"
+
+offsetSm11 :: ClassName
+offsetSm11 = className "offset-sm-11"
+
+offsetSm2 :: ClassName
+offsetSm2 = className "offset-sm-2"
+
+offsetSm3 :: ClassName
+offsetSm3 = className "offset-sm-3"
+
+offsetSm4 :: ClassName
+offsetSm4 = className "offset-sm-4"
+
+offsetSm5 :: ClassName
+offsetSm5 = className "offset-sm-5"
+
+offsetSm6 :: ClassName
+offsetSm6 = className "offset-sm-6"
+
+offsetSm7 :: ClassName
+offsetSm7 = className "offset-sm-7"
+
+offsetSm8 :: ClassName
+offsetSm8 = className "offset-sm-8"
+
+offsetSm9 :: ClassName
+offsetSm9 = className "offset-sm-9"
+
+offsetXl0 :: ClassName
+offsetXl0 = className "offset-xl-0"
+
+offsetXl1 :: ClassName
+offsetXl1 = className "offset-xl-1"
+
+offsetXl10 :: ClassName
+offsetXl10 = className "offset-xl-10"
+
+offsetXl11 :: ClassName
+offsetXl11 = className "offset-xl-11"
+
+offsetXl2 :: ClassName
+offsetXl2 = className "offset-xl-2"
+
+offsetXl3 :: ClassName
+offsetXl3 = className "offset-xl-3"
+
+offsetXl4 :: ClassName
+offsetXl4 = className "offset-xl-4"
+
+offsetXl5 :: ClassName
+offsetXl5 = className "offset-xl-5"
+
+offsetXl6 :: ClassName
+offsetXl6 = className "offset-xl-6"
+
+offsetXl7 :: ClassName
+offsetXl7 = className "offset-xl-7"
+
+offsetXl8 :: ClassName
+offsetXl8 = className "offset-xl-8"
+
+offsetXl9 :: ClassName
+offsetXl9 = className "offset-xl-9"
+
+offsetXs1 :: ClassName
+offsetXs1 = className "offset-xs-1"
+
+offsetXs10 :: ClassName
+offsetXs10 = className "offset-xs-10"
+
+offsetXs11 :: ClassName
+offsetXs11 = className "offset-xs-11"
+
+offsetXs2 :: ClassName
+offsetXs2 = className "offset-xs-2"
+
+offsetXs3 :: ClassName
+offsetXs3 = className "offset-xs-3"
+
+offsetXs4 :: ClassName
+offsetXs4 = className "offset-xs-4"
+
+offsetXs5 :: ClassName
+offsetXs5 = className "offset-xs-5"
+
+offsetXs6 :: ClassName
+offsetXs6 = className "offset-xs-6"
+
+offsetXs7 :: ClassName
+offsetXs7 = className "offset-xs-7"
+
+offsetXs8 :: ClassName
+offsetXs8 = className "offset-xs-8"
+
+offsetXs9 :: ClassName
+offsetXs9 = className "offset-xs-9"
+
 open :: ClassName
 open = className "open"
 
@@ -1696,15 +1312,6 @@ pageItem = className "page-item"
 pageLink :: ClassName
 pageLink = className "page-link"
 
-pager :: ClassName
-pager = className "pager"
-
-pagerNext :: ClassName
-pagerNext = className "pager-next"
-
-pagerPrev :: ClassName
-pagerPrev = className "pager-prev"
-
 pagination :: ClassName
 pagination = className "pagination"
 
@@ -1774,6 +1381,45 @@ progressSuccess = className "progress-success"
 progressWarning :: ClassName
 progressWarning = className "progress-warning"
 
+pullLg0 :: ClassName
+pullLg0 = className "pull-lg-0"
+
+pullLg1 :: ClassName
+pullLg1 = className "pull-lg-1"
+
+pullLg10 :: ClassName
+pullLg10 = className "pull-lg-10"
+
+pullLg11 :: ClassName
+pullLg11 = className "pull-lg-11"
+
+pullLg12 :: ClassName
+pullLg12 = className "pull-lg-12"
+
+pullLg2 :: ClassName
+pullLg2 = className "pull-lg-2"
+
+pullLg3 :: ClassName
+pullLg3 = className "pull-lg-3"
+
+pullLg4 :: ClassName
+pullLg4 = className "pull-lg-4"
+
+pullLg5 :: ClassName
+pullLg5 = className "pull-lg-5"
+
+pullLg6 :: ClassName
+pullLg6 = className "pull-lg-6"
+
+pullLg7 :: ClassName
+pullLg7 = className "pull-lg-7"
+
+pullLg8 :: ClassName
+pullLg8 = className "pull-lg-8"
+
+pullLg9 :: ClassName
+pullLg9 = className "pull-lg-9"
+
 pullLgLeft :: ClassName
 pullLgLeft = className "pull-lg-left"
 
@@ -1782,6 +1428,45 @@ pullLgNone = className "pull-lg-none"
 
 pullLgRight :: ClassName
 pullLgRight = className "pull-lg-right"
+
+pullMd0 :: ClassName
+pullMd0 = className "pull-md-0"
+
+pullMd1 :: ClassName
+pullMd1 = className "pull-md-1"
+
+pullMd10 :: ClassName
+pullMd10 = className "pull-md-10"
+
+pullMd11 :: ClassName
+pullMd11 = className "pull-md-11"
+
+pullMd12 :: ClassName
+pullMd12 = className "pull-md-12"
+
+pullMd2 :: ClassName
+pullMd2 = className "pull-md-2"
+
+pullMd3 :: ClassName
+pullMd3 = className "pull-md-3"
+
+pullMd4 :: ClassName
+pullMd4 = className "pull-md-4"
+
+pullMd5 :: ClassName
+pullMd5 = className "pull-md-5"
+
+pullMd6 :: ClassName
+pullMd6 = className "pull-md-6"
+
+pullMd7 :: ClassName
+pullMd7 = className "pull-md-7"
+
+pullMd8 :: ClassName
+pullMd8 = className "pull-md-8"
+
+pullMd9 :: ClassName
+pullMd9 = className "pull-md-9"
 
 pullMdLeft :: ClassName
 pullMdLeft = className "pull-md-left"
@@ -1792,8 +1477,44 @@ pullMdNone = className "pull-md-none"
 pullMdRight :: ClassName
 pullMdRight = className "pull-md-right"
 
-pullRight :: ClassName
-pullRight = className "pull-right"
+pullSm0 :: ClassName
+pullSm0 = className "pull-sm-0"
+
+pullSm1 :: ClassName
+pullSm1 = className "pull-sm-1"
+
+pullSm10 :: ClassName
+pullSm10 = className "pull-sm-10"
+
+pullSm11 :: ClassName
+pullSm11 = className "pull-sm-11"
+
+pullSm12 :: ClassName
+pullSm12 = className "pull-sm-12"
+
+pullSm2 :: ClassName
+pullSm2 = className "pull-sm-2"
+
+pullSm3 :: ClassName
+pullSm3 = className "pull-sm-3"
+
+pullSm4 :: ClassName
+pullSm4 = className "pull-sm-4"
+
+pullSm5 :: ClassName
+pullSm5 = className "pull-sm-5"
+
+pullSm6 :: ClassName
+pullSm6 = className "pull-sm-6"
+
+pullSm7 :: ClassName
+pullSm7 = className "pull-sm-7"
+
+pullSm8 :: ClassName
+pullSm8 = className "pull-sm-8"
+
+pullSm9 :: ClassName
+pullSm9 = className "pull-sm-9"
 
 pullSmLeft :: ClassName
 pullSmLeft = className "pull-sm-left"
@@ -1804,6 +1525,45 @@ pullSmNone = className "pull-sm-none"
 pullSmRight :: ClassName
 pullSmRight = className "pull-sm-right"
 
+pullXl0 :: ClassName
+pullXl0 = className "pull-xl-0"
+
+pullXl1 :: ClassName
+pullXl1 = className "pull-xl-1"
+
+pullXl10 :: ClassName
+pullXl10 = className "pull-xl-10"
+
+pullXl11 :: ClassName
+pullXl11 = className "pull-xl-11"
+
+pullXl12 :: ClassName
+pullXl12 = className "pull-xl-12"
+
+pullXl2 :: ClassName
+pullXl2 = className "pull-xl-2"
+
+pullXl3 :: ClassName
+pullXl3 = className "pull-xl-3"
+
+pullXl4 :: ClassName
+pullXl4 = className "pull-xl-4"
+
+pullXl5 :: ClassName
+pullXl5 = className "pull-xl-5"
+
+pullXl6 :: ClassName
+pullXl6 = className "pull-xl-6"
+
+pullXl7 :: ClassName
+pullXl7 = className "pull-xl-7"
+
+pullXl8 :: ClassName
+pullXl8 = className "pull-xl-8"
+
+pullXl9 :: ClassName
+pullXl9 = className "pull-xl-9"
+
 pullXlLeft :: ClassName
 pullXlLeft = className "pull-xl-left"
 
@@ -1813,6 +1573,45 @@ pullXlNone = className "pull-xl-none"
 pullXlRight :: ClassName
 pullXlRight = className "pull-xl-right"
 
+pullXs0 :: ClassName
+pullXs0 = className "pull-xs-0"
+
+pullXs1 :: ClassName
+pullXs1 = className "pull-xs-1"
+
+pullXs10 :: ClassName
+pullXs10 = className "pull-xs-10"
+
+pullXs11 :: ClassName
+pullXs11 = className "pull-xs-11"
+
+pullXs12 :: ClassName
+pullXs12 = className "pull-xs-12"
+
+pullXs2 :: ClassName
+pullXs2 = className "pull-xs-2"
+
+pullXs3 :: ClassName
+pullXs3 = className "pull-xs-3"
+
+pullXs4 :: ClassName
+pullXs4 = className "pull-xs-4"
+
+pullXs5 :: ClassName
+pullXs5 = className "pull-xs-5"
+
+pullXs6 :: ClassName
+pullXs6 = className "pull-xs-6"
+
+pullXs7 :: ClassName
+pullXs7 = className "pull-xs-7"
+
+pullXs8 :: ClassName
+pullXs8 = className "pull-xs-8"
+
+pullXs9 :: ClassName
+pullXs9 = className "pull-xs-9"
+
 pullXsLeft :: ClassName
 pullXsLeft = className "pull-xs-left"
 
@@ -1821,6 +1620,201 @@ pullXsNone = className "pull-xs-none"
 
 pullXsRight :: ClassName
 pullXsRight = className "pull-xs-right"
+
+pushLg0 :: ClassName
+pushLg0 = className "push-lg-0"
+
+pushLg1 :: ClassName
+pushLg1 = className "push-lg-1"
+
+pushLg10 :: ClassName
+pushLg10 = className "push-lg-10"
+
+pushLg11 :: ClassName
+pushLg11 = className "push-lg-11"
+
+pushLg12 :: ClassName
+pushLg12 = className "push-lg-12"
+
+pushLg2 :: ClassName
+pushLg2 = className "push-lg-2"
+
+pushLg3 :: ClassName
+pushLg3 = className "push-lg-3"
+
+pushLg4 :: ClassName
+pushLg4 = className "push-lg-4"
+
+pushLg5 :: ClassName
+pushLg5 = className "push-lg-5"
+
+pushLg6 :: ClassName
+pushLg6 = className "push-lg-6"
+
+pushLg7 :: ClassName
+pushLg7 = className "push-lg-7"
+
+pushLg8 :: ClassName
+pushLg8 = className "push-lg-8"
+
+pushLg9 :: ClassName
+pushLg9 = className "push-lg-9"
+
+pushMd0 :: ClassName
+pushMd0 = className "push-md-0"
+
+pushMd1 :: ClassName
+pushMd1 = className "push-md-1"
+
+pushMd10 :: ClassName
+pushMd10 = className "push-md-10"
+
+pushMd11 :: ClassName
+pushMd11 = className "push-md-11"
+
+pushMd12 :: ClassName
+pushMd12 = className "push-md-12"
+
+pushMd2 :: ClassName
+pushMd2 = className "push-md-2"
+
+pushMd3 :: ClassName
+pushMd3 = className "push-md-3"
+
+pushMd4 :: ClassName
+pushMd4 = className "push-md-4"
+
+pushMd5 :: ClassName
+pushMd5 = className "push-md-5"
+
+pushMd6 :: ClassName
+pushMd6 = className "push-md-6"
+
+pushMd7 :: ClassName
+pushMd7 = className "push-md-7"
+
+pushMd8 :: ClassName
+pushMd8 = className "push-md-8"
+
+pushMd9 :: ClassName
+pushMd9 = className "push-md-9"
+
+pushSm0 :: ClassName
+pushSm0 = className "push-sm-0"
+
+pushSm1 :: ClassName
+pushSm1 = className "push-sm-1"
+
+pushSm10 :: ClassName
+pushSm10 = className "push-sm-10"
+
+pushSm11 :: ClassName
+pushSm11 = className "push-sm-11"
+
+pushSm12 :: ClassName
+pushSm12 = className "push-sm-12"
+
+pushSm2 :: ClassName
+pushSm2 = className "push-sm-2"
+
+pushSm3 :: ClassName
+pushSm3 = className "push-sm-3"
+
+pushSm4 :: ClassName
+pushSm4 = className "push-sm-4"
+
+pushSm5 :: ClassName
+pushSm5 = className "push-sm-5"
+
+pushSm6 :: ClassName
+pushSm6 = className "push-sm-6"
+
+pushSm7 :: ClassName
+pushSm7 = className "push-sm-7"
+
+pushSm8 :: ClassName
+pushSm8 = className "push-sm-8"
+
+pushSm9 :: ClassName
+pushSm9 = className "push-sm-9"
+
+pushXl0 :: ClassName
+pushXl0 = className "push-xl-0"
+
+pushXl1 :: ClassName
+pushXl1 = className "push-xl-1"
+
+pushXl10 :: ClassName
+pushXl10 = className "push-xl-10"
+
+pushXl11 :: ClassName
+pushXl11 = className "push-xl-11"
+
+pushXl12 :: ClassName
+pushXl12 = className "push-xl-12"
+
+pushXl2 :: ClassName
+pushXl2 = className "push-xl-2"
+
+pushXl3 :: ClassName
+pushXl3 = className "push-xl-3"
+
+pushXl4 :: ClassName
+pushXl4 = className "push-xl-4"
+
+pushXl5 :: ClassName
+pushXl5 = className "push-xl-5"
+
+pushXl6 :: ClassName
+pushXl6 = className "push-xl-6"
+
+pushXl7 :: ClassName
+pushXl7 = className "push-xl-7"
+
+pushXl8 :: ClassName
+pushXl8 = className "push-xl-8"
+
+pushXl9 :: ClassName
+pushXl9 = className "push-xl-9"
+
+pushXs0 :: ClassName
+pushXs0 = className "push-xs-0"
+
+pushXs1 :: ClassName
+pushXs1 = className "push-xs-1"
+
+pushXs10 :: ClassName
+pushXs10 = className "push-xs-10"
+
+pushXs11 :: ClassName
+pushXs11 = className "push-xs-11"
+
+pushXs12 :: ClassName
+pushXs12 = className "push-xs-12"
+
+pushXs2 :: ClassName
+pushXs2 = className "push-xs-2"
+
+pushXs3 :: ClassName
+pushXs3 = className "push-xs-3"
+
+pushXs4 :: ClassName
+pushXs4 = className "push-xs-4"
+
+pushXs5 :: ClassName
+pushXs5 = className "push-xs-5"
+
+pushXs6 :: ClassName
+pushXs6 = className "push-xs-6"
+
+pushXs7 :: ClassName
+pushXs7 = className "push-xs-7"
+
+pushXs8 :: ClassName
+pushXs8 = className "push-xs-8"
+
+pushXs9 :: ClassName
+pushXs9 = className "push-xs-9"
 
 radio :: ClassName
 radio = className "radio"
@@ -1888,14 +1882,35 @@ tableSuccess = className "table-success"
 tableWarning :: ClassName
 tableWarning = className "table-warning"
 
+tag :: ClassName
+tag = className "tag"
+
+tagDanger :: ClassName
+tagDanger = className "tag-danger"
+
+tagDefault :: ClassName
+tagDefault = className "tag-default"
+
+tagInfo :: ClassName
+tagInfo = className "tag-info"
+
+tagPill :: ClassName
+tagPill = className "tag-pill"
+
+tagPrimary :: ClassName
+tagPrimary = className "tag-primary"
+
+tagSuccess :: ClassName
+tagSuccess = className "tag-success"
+
+tagWarning :: ClassName
+tagWarning = className "tag-warning"
+
 textCapitalize :: ClassName
 textCapitalize = className "text-capitalize"
 
 textDanger :: ClassName
 textDanger = className "text-danger"
-
-textHelp :: ClassName
-textHelp = className "text-help"
 
 textHide :: ClassName
 textHide = className "text-hide"
@@ -2010,4 +2025,7 @@ visiblePrintInline = className "visible-print-inline"
 
 visiblePrintInlineBlock :: ClassName
 visiblePrintInlineBlock = className "visible-print-inline-block"
+
+w100 :: ClassName
+w100 = className "w-100"
 
