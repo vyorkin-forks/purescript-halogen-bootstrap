@@ -259,12 +259,6 @@ carouselInner = className "carousel-inner"
 carouselItem :: ClassName
 carouselItem = className "carousel-item"
 
-checkbox :: ClassName
-checkbox = className "checkbox"
-
-checkboxInline :: ClassName
-checkboxInline = className "checkbox-inline"
-
 clearfix :: ClassName
 clearfix = className "clearfix"
 
@@ -1815,12 +1809,6 @@ pushXs8 = className "push-xs-8"
 
 pushXs9 :: ClassName
 pushXs9 = className "push-xs-9"
-
-radio :: ClassName
-radio = className "radio"
-
-radioInline :: ClassName
-radioInline = className "radio-inline"
 
 right :: ClassName
 right = className "right"
