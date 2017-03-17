@@ -2,2276 +2,2444 @@
 
 module Halogen.Themes.FontAwesome4 where
 
-import Halogen.HTML (ClassName(), className)
+import Halogen.HTML.Core (ClassName(..))
 
 fa :: ClassName
-fa = className "fa"
+fa = ClassName "fa"
 
 fa2X :: ClassName
-fa2X = className "fa-2x"
+fa2X = ClassName "fa-2x"
 
 fa3X :: ClassName
-fa3X = className "fa-3x"
+fa3X = ClassName "fa-3x"
 
 fa4X :: ClassName
-fa4X = className "fa-4x"
+fa4X = ClassName "fa-4x"
 
 fa500Px :: ClassName
-fa500Px = className "fa-500px"
+fa500Px = ClassName "fa-500px"
 
 fa5X :: ClassName
-fa5X = className "fa-5x"
+fa5X = ClassName "fa-5x"
+
+faAddressBook :: ClassName
+faAddressBook = ClassName "fa-address-book"
+
+faAddressBookO :: ClassName
+faAddressBookO = ClassName "fa-address-book-o"
+
+faAddressCard :: ClassName
+faAddressCard = ClassName "fa-address-card"
+
+faAddressCardO :: ClassName
+faAddressCardO = ClassName "fa-address-card-o"
 
 faAdjust :: ClassName
-faAdjust = className "fa-adjust"
+faAdjust = ClassName "fa-adjust"
 
 faAdn :: ClassName
-faAdn = className "fa-adn"
+faAdn = ClassName "fa-adn"
 
 faAlignCenter :: ClassName
-faAlignCenter = className "fa-align-center"
+faAlignCenter = ClassName "fa-align-center"
 
 faAlignJustify :: ClassName
-faAlignJustify = className "fa-align-justify"
+faAlignJustify = ClassName "fa-align-justify"
 
 faAlignLeft :: ClassName
-faAlignLeft = className "fa-align-left"
+faAlignLeft = ClassName "fa-align-left"
 
 faAlignRight :: ClassName
-faAlignRight = className "fa-align-right"
+faAlignRight = ClassName "fa-align-right"
 
 faAmazon :: ClassName
-faAmazon = className "fa-amazon"
+faAmazon = ClassName "fa-amazon"
 
 faAmbulance :: ClassName
-faAmbulance = className "fa-ambulance"
+faAmbulance = ClassName "fa-ambulance"
 
 faAmericanSignLanguageInterpreting :: ClassName
-faAmericanSignLanguageInterpreting = className "fa-american-sign-language-interpreting"
+faAmericanSignLanguageInterpreting = ClassName "fa-american-sign-language-interpreting"
 
 faAnchor :: ClassName
-faAnchor = className "fa-anchor"
+faAnchor = ClassName "fa-anchor"
 
 faAndroid :: ClassName
-faAndroid = className "fa-android"
+faAndroid = ClassName "fa-android"
 
 faAngellist :: ClassName
-faAngellist = className "fa-angellist"
+faAngellist = ClassName "fa-angellist"
 
 faAngleDoubleDown :: ClassName
-faAngleDoubleDown = className "fa-angle-double-down"
+faAngleDoubleDown = ClassName "fa-angle-double-down"
 
 faAngleDoubleLeft :: ClassName
-faAngleDoubleLeft = className "fa-angle-double-left"
+faAngleDoubleLeft = ClassName "fa-angle-double-left"
 
 faAngleDoubleRight :: ClassName
-faAngleDoubleRight = className "fa-angle-double-right"
+faAngleDoubleRight = ClassName "fa-angle-double-right"
 
 faAngleDoubleUp :: ClassName
-faAngleDoubleUp = className "fa-angle-double-up"
+faAngleDoubleUp = ClassName "fa-angle-double-up"
 
 faAngleDown :: ClassName
-faAngleDown = className "fa-angle-down"
+faAngleDown = ClassName "fa-angle-down"
 
 faAngleLeft :: ClassName
-faAngleLeft = className "fa-angle-left"
+faAngleLeft = ClassName "fa-angle-left"
 
 faAngleRight :: ClassName
-faAngleRight = className "fa-angle-right"
+faAngleRight = ClassName "fa-angle-right"
 
 faAngleUp :: ClassName
-faAngleUp = className "fa-angle-up"
+faAngleUp = ClassName "fa-angle-up"
 
 faApple :: ClassName
-faApple = className "fa-apple"
+faApple = ClassName "fa-apple"
 
 faArchive :: ClassName
-faArchive = className "fa-archive"
+faArchive = ClassName "fa-archive"
 
 faAreaChart :: ClassName
-faAreaChart = className "fa-area-chart"
+faAreaChart = ClassName "fa-area-chart"
 
 faArrowCircleDown :: ClassName
-faArrowCircleDown = className "fa-arrow-circle-down"
+faArrowCircleDown = ClassName "fa-arrow-circle-down"
 
 faArrowCircleLeft :: ClassName
-faArrowCircleLeft = className "fa-arrow-circle-left"
+faArrowCircleLeft = ClassName "fa-arrow-circle-left"
 
 faArrowCircleODown :: ClassName
-faArrowCircleODown = className "fa-arrow-circle-o-down"
+faArrowCircleODown = ClassName "fa-arrow-circle-o-down"
 
 faArrowCircleOLeft :: ClassName
-faArrowCircleOLeft = className "fa-arrow-circle-o-left"
+faArrowCircleOLeft = ClassName "fa-arrow-circle-o-left"
 
 faArrowCircleORight :: ClassName
-faArrowCircleORight = className "fa-arrow-circle-o-right"
+faArrowCircleORight = ClassName "fa-arrow-circle-o-right"
 
 faArrowCircleOUp :: ClassName
-faArrowCircleOUp = className "fa-arrow-circle-o-up"
+faArrowCircleOUp = ClassName "fa-arrow-circle-o-up"
 
 faArrowCircleRight :: ClassName
-faArrowCircleRight = className "fa-arrow-circle-right"
+faArrowCircleRight = ClassName "fa-arrow-circle-right"
 
 faArrowCircleUp :: ClassName
-faArrowCircleUp = className "fa-arrow-circle-up"
+faArrowCircleUp = ClassName "fa-arrow-circle-up"
 
 faArrowDown :: ClassName
-faArrowDown = className "fa-arrow-down"
+faArrowDown = ClassName "fa-arrow-down"
 
 faArrowLeft :: ClassName
-faArrowLeft = className "fa-arrow-left"
+faArrowLeft = ClassName "fa-arrow-left"
 
 faArrowRight :: ClassName
-faArrowRight = className "fa-arrow-right"
+faArrowRight = ClassName "fa-arrow-right"
 
 faArrowUp :: ClassName
-faArrowUp = className "fa-arrow-up"
+faArrowUp = ClassName "fa-arrow-up"
 
 faArrows :: ClassName
-faArrows = className "fa-arrows"
+faArrows = ClassName "fa-arrows"
 
 faArrowsAlt :: ClassName
-faArrowsAlt = className "fa-arrows-alt"
+faArrowsAlt = ClassName "fa-arrows-alt"
 
 faArrowsH :: ClassName
-faArrowsH = className "fa-arrows-h"
+faArrowsH = ClassName "fa-arrows-h"
 
 faArrowsV :: ClassName
-faArrowsV = className "fa-arrows-v"
+faArrowsV = ClassName "fa-arrows-v"
 
 faAslInterpreting :: ClassName
-faAslInterpreting = className "fa-asl-interpreting"
+faAslInterpreting = ClassName "fa-asl-interpreting"
 
 faAssistiveListeningSystems :: ClassName
-faAssistiveListeningSystems = className "fa-assistive-listening-systems"
+faAssistiveListeningSystems = ClassName "fa-assistive-listening-systems"
 
 faAsterisk :: ClassName
-faAsterisk = className "fa-asterisk"
+faAsterisk = ClassName "fa-asterisk"
 
 faAt :: ClassName
-faAt = className "fa-at"
+faAt = ClassName "fa-at"
 
 faAudioDescription :: ClassName
-faAudioDescription = className "fa-audio-description"
+faAudioDescription = ClassName "fa-audio-description"
 
 faAutomobile :: ClassName
-faAutomobile = className "fa-automobile"
+faAutomobile = ClassName "fa-automobile"
 
 faBackward :: ClassName
-faBackward = className "fa-backward"
+faBackward = ClassName "fa-backward"
 
 faBalanceScale :: ClassName
-faBalanceScale = className "fa-balance-scale"
+faBalanceScale = ClassName "fa-balance-scale"
 
 faBan :: ClassName
-faBan = className "fa-ban"
+faBan = ClassName "fa-ban"
+
+faBandcamp :: ClassName
+faBandcamp = ClassName "fa-bandcamp"
 
 faBank :: ClassName
-faBank = className "fa-bank"
+faBank = ClassName "fa-bank"
 
 faBarChart :: ClassName
-faBarChart = className "fa-bar-chart"
+faBarChart = ClassName "fa-bar-chart"
 
 faBarChartO :: ClassName
-faBarChartO = className "fa-bar-chart-o"
+faBarChartO = ClassName "fa-bar-chart-o"
 
 faBarcode :: ClassName
-faBarcode = className "fa-barcode"
+faBarcode = ClassName "fa-barcode"
 
 faBars :: ClassName
-faBars = className "fa-bars"
+faBars = ClassName "fa-bars"
+
+faBath :: ClassName
+faBath = ClassName "fa-bath"
+
+faBathtub :: ClassName
+faBathtub = ClassName "fa-bathtub"
+
+faBattery :: ClassName
+faBattery = ClassName "fa-battery"
 
 faBattery0 :: ClassName
-faBattery0 = className "fa-battery-0"
+faBattery0 = ClassName "fa-battery-0"
 
 faBattery1 :: ClassName
-faBattery1 = className "fa-battery-1"
+faBattery1 = ClassName "fa-battery-1"
 
 faBattery2 :: ClassName
-faBattery2 = className "fa-battery-2"
+faBattery2 = ClassName "fa-battery-2"
 
 faBattery3 :: ClassName
-faBattery3 = className "fa-battery-3"
+faBattery3 = ClassName "fa-battery-3"
 
 faBattery4 :: ClassName
-faBattery4 = className "fa-battery-4"
+faBattery4 = ClassName "fa-battery-4"
 
 faBatteryEmpty :: ClassName
-faBatteryEmpty = className "fa-battery-empty"
+faBatteryEmpty = ClassName "fa-battery-empty"
 
 faBatteryFull :: ClassName
-faBatteryFull = className "fa-battery-full"
+faBatteryFull = ClassName "fa-battery-full"
 
 faBatteryHalf :: ClassName
-faBatteryHalf = className "fa-battery-half"
+faBatteryHalf = ClassName "fa-battery-half"
 
 faBatteryQuarter :: ClassName
-faBatteryQuarter = className "fa-battery-quarter"
+faBatteryQuarter = ClassName "fa-battery-quarter"
 
 faBatteryThreeQuarters :: ClassName
-faBatteryThreeQuarters = className "fa-battery-three-quarters"
+faBatteryThreeQuarters = ClassName "fa-battery-three-quarters"
 
 faBed :: ClassName
-faBed = className "fa-bed"
+faBed = ClassName "fa-bed"
 
 faBeer :: ClassName
-faBeer = className "fa-beer"
+faBeer = ClassName "fa-beer"
 
 faBehance :: ClassName
-faBehance = className "fa-behance"
+faBehance = ClassName "fa-behance"
 
 faBehanceSquare :: ClassName
-faBehanceSquare = className "fa-behance-square"
+faBehanceSquare = ClassName "fa-behance-square"
 
 faBell :: ClassName
-faBell = className "fa-bell"
+faBell = ClassName "fa-bell"
 
 faBellO :: ClassName
-faBellO = className "fa-bell-o"
+faBellO = ClassName "fa-bell-o"
 
 faBellSlash :: ClassName
-faBellSlash = className "fa-bell-slash"
+faBellSlash = ClassName "fa-bell-slash"
 
 faBellSlashO :: ClassName
-faBellSlashO = className "fa-bell-slash-o"
+faBellSlashO = ClassName "fa-bell-slash-o"
 
 faBicycle :: ClassName
-faBicycle = className "fa-bicycle"
+faBicycle = ClassName "fa-bicycle"
 
 faBinoculars :: ClassName
-faBinoculars = className "fa-binoculars"
+faBinoculars = ClassName "fa-binoculars"
 
 faBirthdayCake :: ClassName
-faBirthdayCake = className "fa-birthday-cake"
+faBirthdayCake = ClassName "fa-birthday-cake"
 
 faBitbucket :: ClassName
-faBitbucket = className "fa-bitbucket"
+faBitbucket = ClassName "fa-bitbucket"
 
 faBitbucketSquare :: ClassName
-faBitbucketSquare = className "fa-bitbucket-square"
+faBitbucketSquare = ClassName "fa-bitbucket-square"
 
 faBitcoin :: ClassName
-faBitcoin = className "fa-bitcoin"
+faBitcoin = ClassName "fa-bitcoin"
 
 faBlackTie :: ClassName
-faBlackTie = className "fa-black-tie"
+faBlackTie = ClassName "fa-black-tie"
 
 faBlind :: ClassName
-faBlind = className "fa-blind"
+faBlind = ClassName "fa-blind"
 
 faBluetooth :: ClassName
-faBluetooth = className "fa-bluetooth"
+faBluetooth = ClassName "fa-bluetooth"
 
 faBluetoothB :: ClassName
-faBluetoothB = className "fa-bluetooth-b"
+faBluetoothB = ClassName "fa-bluetooth-b"
 
 faBold :: ClassName
-faBold = className "fa-bold"
+faBold = ClassName "fa-bold"
 
 faBolt :: ClassName
-faBolt = className "fa-bolt"
+faBolt = ClassName "fa-bolt"
 
 faBomb :: ClassName
-faBomb = className "fa-bomb"
+faBomb = ClassName "fa-bomb"
 
 faBook :: ClassName
-faBook = className "fa-book"
+faBook = ClassName "fa-book"
 
 faBookmark :: ClassName
-faBookmark = className "fa-bookmark"
+faBookmark = ClassName "fa-bookmark"
 
 faBookmarkO :: ClassName
-faBookmarkO = className "fa-bookmark-o"
+faBookmarkO = ClassName "fa-bookmark-o"
 
 faBorder :: ClassName
-faBorder = className "fa-border"
+faBorder = ClassName "fa-border"
 
 faBraille :: ClassName
-faBraille = className "fa-braille"
+faBraille = ClassName "fa-braille"
 
 faBriefcase :: ClassName
-faBriefcase = className "fa-briefcase"
+faBriefcase = ClassName "fa-briefcase"
 
 faBtc :: ClassName
-faBtc = className "fa-btc"
+faBtc = ClassName "fa-btc"
 
 faBug :: ClassName
-faBug = className "fa-bug"
+faBug = ClassName "fa-bug"
 
 faBuilding :: ClassName
-faBuilding = className "fa-building"
+faBuilding = ClassName "fa-building"
 
 faBuildingO :: ClassName
-faBuildingO = className "fa-building-o"
+faBuildingO = ClassName "fa-building-o"
 
 faBullhorn :: ClassName
-faBullhorn = className "fa-bullhorn"
+faBullhorn = ClassName "fa-bullhorn"
 
 faBullseye :: ClassName
-faBullseye = className "fa-bullseye"
+faBullseye = ClassName "fa-bullseye"
 
 faBus :: ClassName
-faBus = className "fa-bus"
+faBus = ClassName "fa-bus"
 
 faBuysellads :: ClassName
-faBuysellads = className "fa-buysellads"
+faBuysellads = ClassName "fa-buysellads"
 
 faCab :: ClassName
-faCab = className "fa-cab"
+faCab = ClassName "fa-cab"
 
 faCalculator :: ClassName
-faCalculator = className "fa-calculator"
+faCalculator = ClassName "fa-calculator"
 
 faCalendar :: ClassName
-faCalendar = className "fa-calendar"
+faCalendar = ClassName "fa-calendar"
 
 faCalendarCheckO :: ClassName
-faCalendarCheckO = className "fa-calendar-check-o"
+faCalendarCheckO = ClassName "fa-calendar-check-o"
 
 faCalendarMinusO :: ClassName
-faCalendarMinusO = className "fa-calendar-minus-o"
+faCalendarMinusO = ClassName "fa-calendar-minus-o"
 
 faCalendarO :: ClassName
-faCalendarO = className "fa-calendar-o"
+faCalendarO = ClassName "fa-calendar-o"
 
 faCalendarPlusO :: ClassName
-faCalendarPlusO = className "fa-calendar-plus-o"
+faCalendarPlusO = ClassName "fa-calendar-plus-o"
 
 faCalendarTimesO :: ClassName
-faCalendarTimesO = className "fa-calendar-times-o"
+faCalendarTimesO = ClassName "fa-calendar-times-o"
 
 faCamera :: ClassName
-faCamera = className "fa-camera"
+faCamera = ClassName "fa-camera"
 
 faCameraRetro :: ClassName
-faCameraRetro = className "fa-camera-retro"
+faCameraRetro = ClassName "fa-camera-retro"
 
 faCar :: ClassName
-faCar = className "fa-car"
+faCar = ClassName "fa-car"
 
 faCaretDown :: ClassName
-faCaretDown = className "fa-caret-down"
+faCaretDown = ClassName "fa-caret-down"
 
 faCaretLeft :: ClassName
-faCaretLeft = className "fa-caret-left"
+faCaretLeft = ClassName "fa-caret-left"
 
 faCaretRight :: ClassName
-faCaretRight = className "fa-caret-right"
+faCaretRight = ClassName "fa-caret-right"
 
 faCaretSquareODown :: ClassName
-faCaretSquareODown = className "fa-caret-square-o-down"
+faCaretSquareODown = ClassName "fa-caret-square-o-down"
 
 faCaretSquareOLeft :: ClassName
-faCaretSquareOLeft = className "fa-caret-square-o-left"
+faCaretSquareOLeft = ClassName "fa-caret-square-o-left"
 
 faCaretSquareORight :: ClassName
-faCaretSquareORight = className "fa-caret-square-o-right"
+faCaretSquareORight = ClassName "fa-caret-square-o-right"
 
 faCaretSquareOUp :: ClassName
-faCaretSquareOUp = className "fa-caret-square-o-up"
+faCaretSquareOUp = ClassName "fa-caret-square-o-up"
 
 faCaretUp :: ClassName
-faCaretUp = className "fa-caret-up"
+faCaretUp = ClassName "fa-caret-up"
 
 faCartArrowDown :: ClassName
-faCartArrowDown = className "fa-cart-arrow-down"
+faCartArrowDown = ClassName "fa-cart-arrow-down"
 
 faCartPlus :: ClassName
-faCartPlus = className "fa-cart-plus"
+faCartPlus = ClassName "fa-cart-plus"
 
 faCc :: ClassName
-faCc = className "fa-cc"
+faCc = ClassName "fa-cc"
 
 faCcAmex :: ClassName
-faCcAmex = className "fa-cc-amex"
+faCcAmex = ClassName "fa-cc-amex"
 
 faCcDinersClub :: ClassName
-faCcDinersClub = className "fa-cc-diners-club"
+faCcDinersClub = ClassName "fa-cc-diners-club"
 
 faCcDiscover :: ClassName
-faCcDiscover = className "fa-cc-discover"
+faCcDiscover = ClassName "fa-cc-discover"
 
 faCcJcb :: ClassName
-faCcJcb = className "fa-cc-jcb"
+faCcJcb = ClassName "fa-cc-jcb"
 
 faCcMastercard :: ClassName
-faCcMastercard = className "fa-cc-mastercard"
+faCcMastercard = ClassName "fa-cc-mastercard"
 
 faCcPaypal :: ClassName
-faCcPaypal = className "fa-cc-paypal"
+faCcPaypal = ClassName "fa-cc-paypal"
 
 faCcStripe :: ClassName
-faCcStripe = className "fa-cc-stripe"
+faCcStripe = ClassName "fa-cc-stripe"
 
 faCcVisa :: ClassName
-faCcVisa = className "fa-cc-visa"
+faCcVisa = ClassName "fa-cc-visa"
 
 faCertificate :: ClassName
-faCertificate = className "fa-certificate"
+faCertificate = ClassName "fa-certificate"
 
 faChain :: ClassName
-faChain = className "fa-chain"
+faChain = ClassName "fa-chain"
 
 faChainBroken :: ClassName
-faChainBroken = className "fa-chain-broken"
+faChainBroken = ClassName "fa-chain-broken"
 
 faCheck :: ClassName
-faCheck = className "fa-check"
+faCheck = ClassName "fa-check"
 
 faCheckCircle :: ClassName
-faCheckCircle = className "fa-check-circle"
+faCheckCircle = ClassName "fa-check-circle"
 
 faCheckCircleO :: ClassName
-faCheckCircleO = className "fa-check-circle-o"
+faCheckCircleO = ClassName "fa-check-circle-o"
 
 faCheckSquare :: ClassName
-faCheckSquare = className "fa-check-square"
+faCheckSquare = ClassName "fa-check-square"
 
 faCheckSquareO :: ClassName
-faCheckSquareO = className "fa-check-square-o"
+faCheckSquareO = ClassName "fa-check-square-o"
 
 faChevronCircleDown :: ClassName
-faChevronCircleDown = className "fa-chevron-circle-down"
+faChevronCircleDown = ClassName "fa-chevron-circle-down"
 
 faChevronCircleLeft :: ClassName
-faChevronCircleLeft = className "fa-chevron-circle-left"
+faChevronCircleLeft = ClassName "fa-chevron-circle-left"
 
 faChevronCircleRight :: ClassName
-faChevronCircleRight = className "fa-chevron-circle-right"
+faChevronCircleRight = ClassName "fa-chevron-circle-right"
 
 faChevronCircleUp :: ClassName
-faChevronCircleUp = className "fa-chevron-circle-up"
+faChevronCircleUp = ClassName "fa-chevron-circle-up"
 
 faChevronDown :: ClassName
-faChevronDown = className "fa-chevron-down"
+faChevronDown = ClassName "fa-chevron-down"
 
 faChevronLeft :: ClassName
-faChevronLeft = className "fa-chevron-left"
+faChevronLeft = ClassName "fa-chevron-left"
 
 faChevronRight :: ClassName
-faChevronRight = className "fa-chevron-right"
+faChevronRight = ClassName "fa-chevron-right"
 
 faChevronUp :: ClassName
-faChevronUp = className "fa-chevron-up"
+faChevronUp = ClassName "fa-chevron-up"
 
 faChild :: ClassName
-faChild = className "fa-child"
+faChild = ClassName "fa-child"
 
 faChrome :: ClassName
-faChrome = className "fa-chrome"
+faChrome = ClassName "fa-chrome"
 
 faCircle :: ClassName
-faCircle = className "fa-circle"
+faCircle = ClassName "fa-circle"
 
 faCircleO :: ClassName
-faCircleO = className "fa-circle-o"
+faCircleO = ClassName "fa-circle-o"
 
 faCircleONotch :: ClassName
-faCircleONotch = className "fa-circle-o-notch"
+faCircleONotch = ClassName "fa-circle-o-notch"
 
 faCircleThin :: ClassName
-faCircleThin = className "fa-circle-thin"
+faCircleThin = ClassName "fa-circle-thin"
 
 faClipboard :: ClassName
-faClipboard = className "fa-clipboard"
+faClipboard = ClassName "fa-clipboard"
 
 faClockO :: ClassName
-faClockO = className "fa-clock-o"
+faClockO = ClassName "fa-clock-o"
 
 faClone :: ClassName
-faClone = className "fa-clone"
+faClone = ClassName "fa-clone"
 
 faClose :: ClassName
-faClose = className "fa-close"
+faClose = ClassName "fa-close"
 
 faCloud :: ClassName
-faCloud = className "fa-cloud"
+faCloud = ClassName "fa-cloud"
 
 faCloudDownload :: ClassName
-faCloudDownload = className "fa-cloud-download"
+faCloudDownload = ClassName "fa-cloud-download"
 
 faCloudUpload :: ClassName
-faCloudUpload = className "fa-cloud-upload"
+faCloudUpload = ClassName "fa-cloud-upload"
 
 faCny :: ClassName
-faCny = className "fa-cny"
+faCny = ClassName "fa-cny"
 
 faCode :: ClassName
-faCode = className "fa-code"
+faCode = ClassName "fa-code"
 
 faCodeFork :: ClassName
-faCodeFork = className "fa-code-fork"
+faCodeFork = ClassName "fa-code-fork"
 
 faCodepen :: ClassName
-faCodepen = className "fa-codepen"
+faCodepen = ClassName "fa-codepen"
 
 faCodiepie :: ClassName
-faCodiepie = className "fa-codiepie"
+faCodiepie = ClassName "fa-codiepie"
 
 faCoffee :: ClassName
-faCoffee = className "fa-coffee"
+faCoffee = ClassName "fa-coffee"
 
 faCog :: ClassName
-faCog = className "fa-cog"
+faCog = ClassName "fa-cog"
 
 faCogs :: ClassName
-faCogs = className "fa-cogs"
+faCogs = ClassName "fa-cogs"
 
 faColumns :: ClassName
-faColumns = className "fa-columns"
+faColumns = ClassName "fa-columns"
 
 faComment :: ClassName
-faComment = className "fa-comment"
+faComment = ClassName "fa-comment"
 
 faCommentO :: ClassName
-faCommentO = className "fa-comment-o"
+faCommentO = ClassName "fa-comment-o"
 
 faCommenting :: ClassName
-faCommenting = className "fa-commenting"
+faCommenting = ClassName "fa-commenting"
 
 faCommentingO :: ClassName
-faCommentingO = className "fa-commenting-o"
+faCommentingO = ClassName "fa-commenting-o"
 
 faComments :: ClassName
-faComments = className "fa-comments"
+faComments = ClassName "fa-comments"
 
 faCommentsO :: ClassName
-faCommentsO = className "fa-comments-o"
+faCommentsO = ClassName "fa-comments-o"
 
 faCompass :: ClassName
-faCompass = className "fa-compass"
+faCompass = ClassName "fa-compass"
 
 faCompress :: ClassName
-faCompress = className "fa-compress"
+faCompress = ClassName "fa-compress"
 
 faConnectdevelop :: ClassName
-faConnectdevelop = className "fa-connectdevelop"
+faConnectdevelop = ClassName "fa-connectdevelop"
 
 faContao :: ClassName
-faContao = className "fa-contao"
+faContao = ClassName "fa-contao"
 
 faCopy :: ClassName
-faCopy = className "fa-copy"
+faCopy = ClassName "fa-copy"
 
 faCopyright :: ClassName
-faCopyright = className "fa-copyright"
+faCopyright = ClassName "fa-copyright"
 
 faCreativeCommons :: ClassName
-faCreativeCommons = className "fa-creative-commons"
+faCreativeCommons = ClassName "fa-creative-commons"
 
 faCreditCard :: ClassName
-faCreditCard = className "fa-credit-card"
+faCreditCard = ClassName "fa-credit-card"
 
 faCreditCardAlt :: ClassName
-faCreditCardAlt = className "fa-credit-card-alt"
+faCreditCardAlt = ClassName "fa-credit-card-alt"
 
 faCrop :: ClassName
-faCrop = className "fa-crop"
+faCrop = ClassName "fa-crop"
 
 faCrosshairs :: ClassName
-faCrosshairs = className "fa-crosshairs"
+faCrosshairs = ClassName "fa-crosshairs"
 
 faCss3 :: ClassName
-faCss3 = className "fa-css3"
+faCss3 = ClassName "fa-css3"
 
 faCube :: ClassName
-faCube = className "fa-cube"
+faCube = ClassName "fa-cube"
 
 faCubes :: ClassName
-faCubes = className "fa-cubes"
+faCubes = ClassName "fa-cubes"
 
 faCut :: ClassName
-faCut = className "fa-cut"
+faCut = ClassName "fa-cut"
 
 faCutlery :: ClassName
-faCutlery = className "fa-cutlery"
+faCutlery = ClassName "fa-cutlery"
 
 faDashboard :: ClassName
-faDashboard = className "fa-dashboard"
+faDashboard = ClassName "fa-dashboard"
 
 faDashcube :: ClassName
-faDashcube = className "fa-dashcube"
+faDashcube = ClassName "fa-dashcube"
 
 faDatabase :: ClassName
-faDatabase = className "fa-database"
+faDatabase = ClassName "fa-database"
 
 faDeaf :: ClassName
-faDeaf = className "fa-deaf"
+faDeaf = ClassName "fa-deaf"
 
 faDeafness :: ClassName
-faDeafness = className "fa-deafness"
+faDeafness = ClassName "fa-deafness"
 
 faDedent :: ClassName
-faDedent = className "fa-dedent"
+faDedent = ClassName "fa-dedent"
 
 faDelicious :: ClassName
-faDelicious = className "fa-delicious"
+faDelicious = ClassName "fa-delicious"
 
 faDesktop :: ClassName
-faDesktop = className "fa-desktop"
+faDesktop = ClassName "fa-desktop"
 
 faDeviantart :: ClassName
-faDeviantart = className "fa-deviantart"
+faDeviantart = ClassName "fa-deviantart"
 
 faDiamond :: ClassName
-faDiamond = className "fa-diamond"
+faDiamond = ClassName "fa-diamond"
 
 faDigg :: ClassName
-faDigg = className "fa-digg"
+faDigg = ClassName "fa-digg"
 
 faDollar :: ClassName
-faDollar = className "fa-dollar"
+faDollar = ClassName "fa-dollar"
 
 faDotCircleO :: ClassName
-faDotCircleO = className "fa-dot-circle-o"
+faDotCircleO = ClassName "fa-dot-circle-o"
 
 faDownload :: ClassName
-faDownload = className "fa-download"
+faDownload = ClassName "fa-download"
 
 faDribbble :: ClassName
-faDribbble = className "fa-dribbble"
+faDribbble = ClassName "fa-dribbble"
+
+faDriversLicense :: ClassName
+faDriversLicense = ClassName "fa-drivers-license"
+
+faDriversLicenseO :: ClassName
+faDriversLicenseO = ClassName "fa-drivers-license-o"
 
 faDropbox :: ClassName
-faDropbox = className "fa-dropbox"
+faDropbox = ClassName "fa-dropbox"
 
 faDrupal :: ClassName
-faDrupal = className "fa-drupal"
+faDrupal = ClassName "fa-drupal"
 
 faEdge :: ClassName
-faEdge = className "fa-edge"
+faEdge = ClassName "fa-edge"
 
 faEdit :: ClassName
-faEdit = className "fa-edit"
+faEdit = ClassName "fa-edit"
+
+faEercast :: ClassName
+faEercast = ClassName "fa-eercast"
 
 faEject :: ClassName
-faEject = className "fa-eject"
+faEject = ClassName "fa-eject"
 
 faEllipsisH :: ClassName
-faEllipsisH = className "fa-ellipsis-h"
+faEllipsisH = ClassName "fa-ellipsis-h"
 
 faEllipsisV :: ClassName
-faEllipsisV = className "fa-ellipsis-v"
+faEllipsisV = ClassName "fa-ellipsis-v"
 
 faEmpire :: ClassName
-faEmpire = className "fa-empire"
+faEmpire = ClassName "fa-empire"
 
 faEnvelope :: ClassName
-faEnvelope = className "fa-envelope"
+faEnvelope = ClassName "fa-envelope"
 
 faEnvelopeO :: ClassName
-faEnvelopeO = className "fa-envelope-o"
+faEnvelopeO = ClassName "fa-envelope-o"
+
+faEnvelopeOpen :: ClassName
+faEnvelopeOpen = ClassName "fa-envelope-open"
+
+faEnvelopeOpenO :: ClassName
+faEnvelopeOpenO = ClassName "fa-envelope-open-o"
 
 faEnvelopeSquare :: ClassName
-faEnvelopeSquare = className "fa-envelope-square"
+faEnvelopeSquare = ClassName "fa-envelope-square"
 
 faEnvira :: ClassName
-faEnvira = className "fa-envira"
+faEnvira = ClassName "fa-envira"
 
 faEraser :: ClassName
-faEraser = className "fa-eraser"
+faEraser = ClassName "fa-eraser"
+
+faEtsy :: ClassName
+faEtsy = ClassName "fa-etsy"
 
 faEur :: ClassName
-faEur = className "fa-eur"
+faEur = ClassName "fa-eur"
 
 faEuro :: ClassName
-faEuro = className "fa-euro"
+faEuro = ClassName "fa-euro"
 
 faExchange :: ClassName
-faExchange = className "fa-exchange"
+faExchange = ClassName "fa-exchange"
 
 faExclamation :: ClassName
-faExclamation = className "fa-exclamation"
+faExclamation = ClassName "fa-exclamation"
 
 faExclamationCircle :: ClassName
-faExclamationCircle = className "fa-exclamation-circle"
+faExclamationCircle = ClassName "fa-exclamation-circle"
 
 faExclamationTriangle :: ClassName
-faExclamationTriangle = className "fa-exclamation-triangle"
+faExclamationTriangle = ClassName "fa-exclamation-triangle"
 
 faExpand :: ClassName
-faExpand = className "fa-expand"
+faExpand = ClassName "fa-expand"
 
 faExpeditedssl :: ClassName
-faExpeditedssl = className "fa-expeditedssl"
+faExpeditedssl = ClassName "fa-expeditedssl"
 
 faExternalLink :: ClassName
-faExternalLink = className "fa-external-link"
+faExternalLink = ClassName "fa-external-link"
 
 faExternalLinkSquare :: ClassName
-faExternalLinkSquare = className "fa-external-link-square"
+faExternalLinkSquare = ClassName "fa-external-link-square"
 
 faEye :: ClassName
-faEye = className "fa-eye"
+faEye = ClassName "fa-eye"
 
 faEyeSlash :: ClassName
-faEyeSlash = className "fa-eye-slash"
+faEyeSlash = ClassName "fa-eye-slash"
 
 faEyedropper :: ClassName
-faEyedropper = className "fa-eyedropper"
+faEyedropper = ClassName "fa-eyedropper"
 
 faFa :: ClassName
-faFa = className "fa-fa"
+faFa = ClassName "fa-fa"
 
 faFacebook :: ClassName
-faFacebook = className "fa-facebook"
+faFacebook = ClassName "fa-facebook"
 
 faFacebookF :: ClassName
-faFacebookF = className "fa-facebook-f"
+faFacebookF = ClassName "fa-facebook-f"
 
 faFacebookOfficial :: ClassName
-faFacebookOfficial = className "fa-facebook-official"
+faFacebookOfficial = ClassName "fa-facebook-official"
 
 faFacebookSquare :: ClassName
-faFacebookSquare = className "fa-facebook-square"
+faFacebookSquare = ClassName "fa-facebook-square"
 
 faFastBackward :: ClassName
-faFastBackward = className "fa-fast-backward"
+faFastBackward = ClassName "fa-fast-backward"
 
 faFastForward :: ClassName
-faFastForward = className "fa-fast-forward"
+faFastForward = ClassName "fa-fast-forward"
 
 faFax :: ClassName
-faFax = className "fa-fax"
+faFax = ClassName "fa-fax"
 
 faFeed :: ClassName
-faFeed = className "fa-feed"
+faFeed = ClassName "fa-feed"
 
 faFemale :: ClassName
-faFemale = className "fa-female"
+faFemale = ClassName "fa-female"
 
 faFighterJet :: ClassName
-faFighterJet = className "fa-fighter-jet"
+faFighterJet = ClassName "fa-fighter-jet"
 
 faFile :: ClassName
-faFile = className "fa-file"
+faFile = ClassName "fa-file"
 
 faFileArchiveO :: ClassName
-faFileArchiveO = className "fa-file-archive-o"
+faFileArchiveO = ClassName "fa-file-archive-o"
 
 faFileAudioO :: ClassName
-faFileAudioO = className "fa-file-audio-o"
+faFileAudioO = ClassName "fa-file-audio-o"
 
 faFileCodeO :: ClassName
-faFileCodeO = className "fa-file-code-o"
+faFileCodeO = ClassName "fa-file-code-o"
 
 faFileExcelO :: ClassName
-faFileExcelO = className "fa-file-excel-o"
+faFileExcelO = ClassName "fa-file-excel-o"
 
 faFileImageO :: ClassName
-faFileImageO = className "fa-file-image-o"
+faFileImageO = ClassName "fa-file-image-o"
 
 faFileMovieO :: ClassName
-faFileMovieO = className "fa-file-movie-o"
+faFileMovieO = ClassName "fa-file-movie-o"
 
 faFileO :: ClassName
-faFileO = className "fa-file-o"
+faFileO = ClassName "fa-file-o"
 
 faFilePdfO :: ClassName
-faFilePdfO = className "fa-file-pdf-o"
+faFilePdfO = ClassName "fa-file-pdf-o"
 
 faFilePhotoO :: ClassName
-faFilePhotoO = className "fa-file-photo-o"
+faFilePhotoO = ClassName "fa-file-photo-o"
 
 faFilePictureO :: ClassName
-faFilePictureO = className "fa-file-picture-o"
+faFilePictureO = ClassName "fa-file-picture-o"
 
 faFilePowerpointO :: ClassName
-faFilePowerpointO = className "fa-file-powerpoint-o"
+faFilePowerpointO = ClassName "fa-file-powerpoint-o"
 
 faFileSoundO :: ClassName
-faFileSoundO = className "fa-file-sound-o"
+faFileSoundO = ClassName "fa-file-sound-o"
 
 faFileText :: ClassName
-faFileText = className "fa-file-text"
+faFileText = ClassName "fa-file-text"
 
 faFileTextO :: ClassName
-faFileTextO = className "fa-file-text-o"
+faFileTextO = ClassName "fa-file-text-o"
 
 faFileVideoO :: ClassName
-faFileVideoO = className "fa-file-video-o"
+faFileVideoO = ClassName "fa-file-video-o"
 
 faFileWordO :: ClassName
-faFileWordO = className "fa-file-word-o"
+faFileWordO = ClassName "fa-file-word-o"
 
 faFileZipO :: ClassName
-faFileZipO = className "fa-file-zip-o"
+faFileZipO = ClassName "fa-file-zip-o"
 
 faFilesO :: ClassName
-faFilesO = className "fa-files-o"
+faFilesO = ClassName "fa-files-o"
 
 faFilm :: ClassName
-faFilm = className "fa-film"
+faFilm = ClassName "fa-film"
 
 faFilter :: ClassName
-faFilter = className "fa-filter"
+faFilter = ClassName "fa-filter"
 
 faFire :: ClassName
-faFire = className "fa-fire"
+faFire = ClassName "fa-fire"
 
 faFireExtinguisher :: ClassName
-faFireExtinguisher = className "fa-fire-extinguisher"
+faFireExtinguisher = ClassName "fa-fire-extinguisher"
 
 faFirefox :: ClassName
-faFirefox = className "fa-firefox"
+faFirefox = ClassName "fa-firefox"
 
 faFirstOrder :: ClassName
-faFirstOrder = className "fa-first-order"
+faFirstOrder = ClassName "fa-first-order"
 
 faFlag :: ClassName
-faFlag = className "fa-flag"
+faFlag = ClassName "fa-flag"
 
 faFlagCheckered :: ClassName
-faFlagCheckered = className "fa-flag-checkered"
+faFlagCheckered = ClassName "fa-flag-checkered"
 
 faFlagO :: ClassName
-faFlagO = className "fa-flag-o"
+faFlagO = ClassName "fa-flag-o"
 
 faFlash :: ClassName
-faFlash = className "fa-flash"
+faFlash = ClassName "fa-flash"
 
 faFlask :: ClassName
-faFlask = className "fa-flask"
+faFlask = ClassName "fa-flask"
 
 faFlickr :: ClassName
-faFlickr = className "fa-flickr"
+faFlickr = ClassName "fa-flickr"
 
 faFlipHorizontal :: ClassName
-faFlipHorizontal = className "fa-flip-horizontal"
+faFlipHorizontal = ClassName "fa-flip-horizontal"
 
 faFlipVertical :: ClassName
-faFlipVertical = className "fa-flip-vertical"
+faFlipVertical = ClassName "fa-flip-vertical"
 
 faFloppyO :: ClassName
-faFloppyO = className "fa-floppy-o"
+faFloppyO = ClassName "fa-floppy-o"
 
 faFolder :: ClassName
-faFolder = className "fa-folder"
+faFolder = ClassName "fa-folder"
 
 faFolderO :: ClassName
-faFolderO = className "fa-folder-o"
+faFolderO = ClassName "fa-folder-o"
 
 faFolderOpen :: ClassName
-faFolderOpen = className "fa-folder-open"
+faFolderOpen = ClassName "fa-folder-open"
 
 faFolderOpenO :: ClassName
-faFolderOpenO = className "fa-folder-open-o"
+faFolderOpenO = ClassName "fa-folder-open-o"
 
 faFont :: ClassName
-faFont = className "fa-font"
+faFont = ClassName "fa-font"
 
 faFontAwesome :: ClassName
-faFontAwesome = className "fa-font-awesome"
+faFontAwesome = ClassName "fa-font-awesome"
 
 faFonticons :: ClassName
-faFonticons = className "fa-fonticons"
+faFonticons = ClassName "fa-fonticons"
 
 faFortAwesome :: ClassName
-faFortAwesome = className "fa-fort-awesome"
+faFortAwesome = ClassName "fa-fort-awesome"
 
 faForumbee :: ClassName
-faForumbee = className "fa-forumbee"
+faForumbee = ClassName "fa-forumbee"
 
 faForward :: ClassName
-faForward = className "fa-forward"
+faForward = ClassName "fa-forward"
 
 faFoursquare :: ClassName
-faFoursquare = className "fa-foursquare"
+faFoursquare = ClassName "fa-foursquare"
+
+faFreeCodeCamp :: ClassName
+faFreeCodeCamp = ClassName "fa-free-code-camp"
 
 faFrownO :: ClassName
-faFrownO = className "fa-frown-o"
+faFrownO = ClassName "fa-frown-o"
 
 faFutbolO :: ClassName
-faFutbolO = className "fa-futbol-o"
+faFutbolO = ClassName "fa-futbol-o"
 
 faFw :: ClassName
-faFw = className "fa-fw"
+faFw = ClassName "fa-fw"
 
 faGamepad :: ClassName
-faGamepad = className "fa-gamepad"
+faGamepad = ClassName "fa-gamepad"
 
 faGavel :: ClassName
-faGavel = className "fa-gavel"
+faGavel = ClassName "fa-gavel"
 
 faGbp :: ClassName
-faGbp = className "fa-gbp"
+faGbp = ClassName "fa-gbp"
 
 faGe :: ClassName
-faGe = className "fa-ge"
+faGe = ClassName "fa-ge"
 
 faGear :: ClassName
-faGear = className "fa-gear"
+faGear = ClassName "fa-gear"
 
 faGears :: ClassName
-faGears = className "fa-gears"
+faGears = ClassName "fa-gears"
 
 faGenderless :: ClassName
-faGenderless = className "fa-genderless"
+faGenderless = ClassName "fa-genderless"
 
 faGetPocket :: ClassName
-faGetPocket = className "fa-get-pocket"
+faGetPocket = ClassName "fa-get-pocket"
 
 faGg :: ClassName
-faGg = className "fa-gg"
+faGg = ClassName "fa-gg"
 
 faGgCircle :: ClassName
-faGgCircle = className "fa-gg-circle"
+faGgCircle = ClassName "fa-gg-circle"
 
 faGift :: ClassName
-faGift = className "fa-gift"
+faGift = ClassName "fa-gift"
 
 faGit :: ClassName
-faGit = className "fa-git"
+faGit = ClassName "fa-git"
 
 faGitSquare :: ClassName
-faGitSquare = className "fa-git-square"
+faGitSquare = ClassName "fa-git-square"
 
 faGithub :: ClassName
-faGithub = className "fa-github"
+faGithub = ClassName "fa-github"
 
 faGithubAlt :: ClassName
-faGithubAlt = className "fa-github-alt"
+faGithubAlt = ClassName "fa-github-alt"
 
 faGithubSquare :: ClassName
-faGithubSquare = className "fa-github-square"
+faGithubSquare = ClassName "fa-github-square"
 
 faGitlab :: ClassName
-faGitlab = className "fa-gitlab"
+faGitlab = ClassName "fa-gitlab"
 
 faGittip :: ClassName
-faGittip = className "fa-gittip"
+faGittip = ClassName "fa-gittip"
 
 faGlass :: ClassName
-faGlass = className "fa-glass"
+faGlass = ClassName "fa-glass"
 
 faGlide :: ClassName
-faGlide = className "fa-glide"
+faGlide = ClassName "fa-glide"
 
 faGlideG :: ClassName
-faGlideG = className "fa-glide-g"
+faGlideG = ClassName "fa-glide-g"
 
 faGlobe :: ClassName
-faGlobe = className "fa-globe"
+faGlobe = ClassName "fa-globe"
 
 faGoogle :: ClassName
-faGoogle = className "fa-google"
+faGoogle = ClassName "fa-google"
 
 faGooglePlus :: ClassName
-faGooglePlus = className "fa-google-plus"
+faGooglePlus = ClassName "fa-google-plus"
 
 faGooglePlusCircle :: ClassName
-faGooglePlusCircle = className "fa-google-plus-circle"
+faGooglePlusCircle = ClassName "fa-google-plus-circle"
 
 faGooglePlusOfficial :: ClassName
-faGooglePlusOfficial = className "fa-google-plus-official"
+faGooglePlusOfficial = ClassName "fa-google-plus-official"
 
 faGooglePlusSquare :: ClassName
-faGooglePlusSquare = className "fa-google-plus-square"
+faGooglePlusSquare = ClassName "fa-google-plus-square"
 
 faGoogleWallet :: ClassName
-faGoogleWallet = className "fa-google-wallet"
+faGoogleWallet = ClassName "fa-google-wallet"
 
 faGraduationCap :: ClassName
-faGraduationCap = className "fa-graduation-cap"
+faGraduationCap = ClassName "fa-graduation-cap"
 
 faGratipay :: ClassName
-faGratipay = className "fa-gratipay"
+faGratipay = ClassName "fa-gratipay"
+
+faGrav :: ClassName
+faGrav = ClassName "fa-grav"
 
 faGroup :: ClassName
-faGroup = className "fa-group"
+faGroup = ClassName "fa-group"
 
 faHSquare :: ClassName
-faHSquare = className "fa-h-square"
+faHSquare = ClassName "fa-h-square"
 
 faHackerNews :: ClassName
-faHackerNews = className "fa-hacker-news"
+faHackerNews = ClassName "fa-hacker-news"
 
 faHandGrabO :: ClassName
-faHandGrabO = className "fa-hand-grab-o"
+faHandGrabO = ClassName "fa-hand-grab-o"
 
 faHandLizardO :: ClassName
-faHandLizardO = className "fa-hand-lizard-o"
+faHandLizardO = ClassName "fa-hand-lizard-o"
 
 faHandODown :: ClassName
-faHandODown = className "fa-hand-o-down"
+faHandODown = ClassName "fa-hand-o-down"
 
 faHandOLeft :: ClassName
-faHandOLeft = className "fa-hand-o-left"
+faHandOLeft = ClassName "fa-hand-o-left"
 
 faHandORight :: ClassName
-faHandORight = className "fa-hand-o-right"
+faHandORight = ClassName "fa-hand-o-right"
 
 faHandOUp :: ClassName
-faHandOUp = className "fa-hand-o-up"
+faHandOUp = ClassName "fa-hand-o-up"
 
 faHandPaperO :: ClassName
-faHandPaperO = className "fa-hand-paper-o"
+faHandPaperO = ClassName "fa-hand-paper-o"
 
 faHandPeaceO :: ClassName
-faHandPeaceO = className "fa-hand-peace-o"
+faHandPeaceO = ClassName "fa-hand-peace-o"
 
 faHandPointerO :: ClassName
-faHandPointerO = className "fa-hand-pointer-o"
+faHandPointerO = ClassName "fa-hand-pointer-o"
 
 faHandRockO :: ClassName
-faHandRockO = className "fa-hand-rock-o"
+faHandRockO = ClassName "fa-hand-rock-o"
 
 faHandScissorsO :: ClassName
-faHandScissorsO = className "fa-hand-scissors-o"
+faHandScissorsO = ClassName "fa-hand-scissors-o"
 
 faHandSpockO :: ClassName
-faHandSpockO = className "fa-hand-spock-o"
+faHandSpockO = ClassName "fa-hand-spock-o"
 
 faHandStopO :: ClassName
-faHandStopO = className "fa-hand-stop-o"
+faHandStopO = ClassName "fa-hand-stop-o"
+
+faHandshakeO :: ClassName
+faHandshakeO = ClassName "fa-handshake-o"
 
 faHardOfHearing :: ClassName
-faHardOfHearing = className "fa-hard-of-hearing"
+faHardOfHearing = ClassName "fa-hard-of-hearing"
 
 faHashtag :: ClassName
-faHashtag = className "fa-hashtag"
+faHashtag = ClassName "fa-hashtag"
 
 faHddO :: ClassName
-faHddO = className "fa-hdd-o"
+faHddO = ClassName "fa-hdd-o"
 
 faHeader :: ClassName
-faHeader = className "fa-header"
+faHeader = ClassName "fa-header"
 
 faHeadphones :: ClassName
-faHeadphones = className "fa-headphones"
+faHeadphones = ClassName "fa-headphones"
 
 faHeart :: ClassName
-faHeart = className "fa-heart"
+faHeart = ClassName "fa-heart"
 
 faHeartO :: ClassName
-faHeartO = className "fa-heart-o"
+faHeartO = ClassName "fa-heart-o"
 
 faHeartbeat :: ClassName
-faHeartbeat = className "fa-heartbeat"
+faHeartbeat = ClassName "fa-heartbeat"
 
 faHistory :: ClassName
-faHistory = className "fa-history"
+faHistory = ClassName "fa-history"
 
 faHome :: ClassName
-faHome = className "fa-home"
+faHome = ClassName "fa-home"
 
 faHospitalO :: ClassName
-faHospitalO = className "fa-hospital-o"
+faHospitalO = ClassName "fa-hospital-o"
 
 faHotel :: ClassName
-faHotel = className "fa-hotel"
+faHotel = ClassName "fa-hotel"
 
 faHourglass :: ClassName
-faHourglass = className "fa-hourglass"
+faHourglass = ClassName "fa-hourglass"
 
 faHourglass1 :: ClassName
-faHourglass1 = className "fa-hourglass-1"
+faHourglass1 = ClassName "fa-hourglass-1"
 
 faHourglass2 :: ClassName
-faHourglass2 = className "fa-hourglass-2"
+faHourglass2 = ClassName "fa-hourglass-2"
 
 faHourglass3 :: ClassName
-faHourglass3 = className "fa-hourglass-3"
+faHourglass3 = ClassName "fa-hourglass-3"
 
 faHourglassEnd :: ClassName
-faHourglassEnd = className "fa-hourglass-end"
+faHourglassEnd = ClassName "fa-hourglass-end"
 
 faHourglassHalf :: ClassName
-faHourglassHalf = className "fa-hourglass-half"
+faHourglassHalf = ClassName "fa-hourglass-half"
 
 faHourglassO :: ClassName
-faHourglassO = className "fa-hourglass-o"
+faHourglassO = ClassName "fa-hourglass-o"
 
 faHourglassStart :: ClassName
-faHourglassStart = className "fa-hourglass-start"
+faHourglassStart = ClassName "fa-hourglass-start"
 
 faHouzz :: ClassName
-faHouzz = className "fa-houzz"
+faHouzz = ClassName "fa-houzz"
 
 faHtml5 :: ClassName
-faHtml5 = className "fa-html5"
+faHtml5 = ClassName "fa-html5"
 
 faICursor :: ClassName
-faICursor = className "fa-i-cursor"
+faICursor = ClassName "fa-i-cursor"
+
+faIdBadge :: ClassName
+faIdBadge = ClassName "fa-id-badge"
+
+faIdCard :: ClassName
+faIdCard = ClassName "fa-id-card"
+
+faIdCardO :: ClassName
+faIdCardO = ClassName "fa-id-card-o"
 
 faIls :: ClassName
-faIls = className "fa-ils"
+faIls = ClassName "fa-ils"
 
 faImage :: ClassName
-faImage = className "fa-image"
+faImage = ClassName "fa-image"
+
+faImdb :: ClassName
+faImdb = ClassName "fa-imdb"
 
 faInbox :: ClassName
-faInbox = className "fa-inbox"
+faInbox = ClassName "fa-inbox"
 
 faIndent :: ClassName
-faIndent = className "fa-indent"
+faIndent = ClassName "fa-indent"
 
 faIndustry :: ClassName
-faIndustry = className "fa-industry"
+faIndustry = ClassName "fa-industry"
 
 faInfo :: ClassName
-faInfo = className "fa-info"
+faInfo = ClassName "fa-info"
 
 faInfoCircle :: ClassName
-faInfoCircle = className "fa-info-circle"
+faInfoCircle = ClassName "fa-info-circle"
 
 faInr :: ClassName
-faInr = className "fa-inr"
+faInr = ClassName "fa-inr"
 
 faInstagram :: ClassName
-faInstagram = className "fa-instagram"
+faInstagram = ClassName "fa-instagram"
 
 faInstitution :: ClassName
-faInstitution = className "fa-institution"
+faInstitution = ClassName "fa-institution"
 
 faInternetExplorer :: ClassName
-faInternetExplorer = className "fa-internet-explorer"
+faInternetExplorer = ClassName "fa-internet-explorer"
 
 faIntersex :: ClassName
-faIntersex = className "fa-intersex"
+faIntersex = ClassName "fa-intersex"
 
 faInverse :: ClassName
-faInverse = className "fa-inverse"
+faInverse = ClassName "fa-inverse"
 
 faIoxhost :: ClassName
-faIoxhost = className "fa-ioxhost"
+faIoxhost = ClassName "fa-ioxhost"
 
 faItalic :: ClassName
-faItalic = className "fa-italic"
+faItalic = ClassName "fa-italic"
 
 faJoomla :: ClassName
-faJoomla = className "fa-joomla"
+faJoomla = ClassName "fa-joomla"
 
 faJpy :: ClassName
-faJpy = className "fa-jpy"
+faJpy = ClassName "fa-jpy"
 
 faJsfiddle :: ClassName
-faJsfiddle = className "fa-jsfiddle"
+faJsfiddle = ClassName "fa-jsfiddle"
 
 faKey :: ClassName
-faKey = className "fa-key"
+faKey = ClassName "fa-key"
 
 faKeyboardO :: ClassName
-faKeyboardO = className "fa-keyboard-o"
+faKeyboardO = ClassName "fa-keyboard-o"
 
 faKrw :: ClassName
-faKrw = className "fa-krw"
+faKrw = ClassName "fa-krw"
 
 faLanguage :: ClassName
-faLanguage = className "fa-language"
+faLanguage = ClassName "fa-language"
 
 faLaptop :: ClassName
-faLaptop = className "fa-laptop"
+faLaptop = ClassName "fa-laptop"
 
 faLastfm :: ClassName
-faLastfm = className "fa-lastfm"
+faLastfm = ClassName "fa-lastfm"
 
 faLastfmSquare :: ClassName
-faLastfmSquare = className "fa-lastfm-square"
+faLastfmSquare = ClassName "fa-lastfm-square"
 
 faLeaf :: ClassName
-faLeaf = className "fa-leaf"
+faLeaf = ClassName "fa-leaf"
 
 faLeanpub :: ClassName
-faLeanpub = className "fa-leanpub"
+faLeanpub = ClassName "fa-leanpub"
 
 faLegal :: ClassName
-faLegal = className "fa-legal"
+faLegal = ClassName "fa-legal"
 
 faLemonO :: ClassName
-faLemonO = className "fa-lemon-o"
+faLemonO = ClassName "fa-lemon-o"
 
 faLevelDown :: ClassName
-faLevelDown = className "fa-level-down"
+faLevelDown = ClassName "fa-level-down"
 
 faLevelUp :: ClassName
-faLevelUp = className "fa-level-up"
+faLevelUp = ClassName "fa-level-up"
 
 faLg :: ClassName
-faLg = className "fa-lg"
+faLg = ClassName "fa-lg"
 
 faLi :: ClassName
-faLi = className "fa-li"
+faLi = ClassName "fa-li"
 
 faLifeBouy :: ClassName
-faLifeBouy = className "fa-life-bouy"
+faLifeBouy = ClassName "fa-life-bouy"
 
 faLifeBuoy :: ClassName
-faLifeBuoy = className "fa-life-buoy"
+faLifeBuoy = ClassName "fa-life-buoy"
 
 faLifeRing :: ClassName
-faLifeRing = className "fa-life-ring"
+faLifeRing = ClassName "fa-life-ring"
 
 faLifeSaver :: ClassName
-faLifeSaver = className "fa-life-saver"
+faLifeSaver = ClassName "fa-life-saver"
 
 faLightbulbO :: ClassName
-faLightbulbO = className "fa-lightbulb-o"
+faLightbulbO = ClassName "fa-lightbulb-o"
 
 faLineChart :: ClassName
-faLineChart = className "fa-line-chart"
+faLineChart = ClassName "fa-line-chart"
 
 faLink :: ClassName
-faLink = className "fa-link"
+faLink = ClassName "fa-link"
 
 faLinkedin :: ClassName
-faLinkedin = className "fa-linkedin"
+faLinkedin = ClassName "fa-linkedin"
 
 faLinkedinSquare :: ClassName
-faLinkedinSquare = className "fa-linkedin-square"
+faLinkedinSquare = ClassName "fa-linkedin-square"
+
+faLinode :: ClassName
+faLinode = ClassName "fa-linode"
 
 faLinux :: ClassName
-faLinux = className "fa-linux"
+faLinux = ClassName "fa-linux"
 
 faList :: ClassName
-faList = className "fa-list"
+faList = ClassName "fa-list"
 
 faListAlt :: ClassName
-faListAlt = className "fa-list-alt"
+faListAlt = ClassName "fa-list-alt"
 
 faListOl :: ClassName
-faListOl = className "fa-list-ol"
+faListOl = ClassName "fa-list-ol"
 
 faListUl :: ClassName
-faListUl = className "fa-list-ul"
+faListUl = ClassName "fa-list-ul"
 
 faLocationArrow :: ClassName
-faLocationArrow = className "fa-location-arrow"
+faLocationArrow = ClassName "fa-location-arrow"
 
 faLock :: ClassName
-faLock = className "fa-lock"
+faLock = ClassName "fa-lock"
 
 faLongArrowDown :: ClassName
-faLongArrowDown = className "fa-long-arrow-down"
+faLongArrowDown = ClassName "fa-long-arrow-down"
 
 faLongArrowLeft :: ClassName
-faLongArrowLeft = className "fa-long-arrow-left"
+faLongArrowLeft = ClassName "fa-long-arrow-left"
 
 faLongArrowRight :: ClassName
-faLongArrowRight = className "fa-long-arrow-right"
+faLongArrowRight = ClassName "fa-long-arrow-right"
 
 faLongArrowUp :: ClassName
-faLongArrowUp = className "fa-long-arrow-up"
+faLongArrowUp = ClassName "fa-long-arrow-up"
 
 faLowVision :: ClassName
-faLowVision = className "fa-low-vision"
+faLowVision = ClassName "fa-low-vision"
 
 faMagic :: ClassName
-faMagic = className "fa-magic"
+faMagic = ClassName "fa-magic"
 
 faMagnet :: ClassName
-faMagnet = className "fa-magnet"
+faMagnet = ClassName "fa-magnet"
 
 faMailForward :: ClassName
-faMailForward = className "fa-mail-forward"
+faMailForward = ClassName "fa-mail-forward"
 
 faMailReply :: ClassName
-faMailReply = className "fa-mail-reply"
+faMailReply = ClassName "fa-mail-reply"
 
 faMailReplyAll :: ClassName
-faMailReplyAll = className "fa-mail-reply-all"
+faMailReplyAll = ClassName "fa-mail-reply-all"
 
 faMale :: ClassName
-faMale = className "fa-male"
+faMale = ClassName "fa-male"
 
 faMap :: ClassName
-faMap = className "fa-map"
+faMap = ClassName "fa-map"
 
 faMapMarker :: ClassName
-faMapMarker = className "fa-map-marker"
+faMapMarker = ClassName "fa-map-marker"
 
 faMapO :: ClassName
-faMapO = className "fa-map-o"
+faMapO = ClassName "fa-map-o"
 
 faMapPin :: ClassName
-faMapPin = className "fa-map-pin"
+faMapPin = ClassName "fa-map-pin"
 
 faMapSigns :: ClassName
-faMapSigns = className "fa-map-signs"
+faMapSigns = ClassName "fa-map-signs"
 
 faMars :: ClassName
-faMars = className "fa-mars"
+faMars = ClassName "fa-mars"
 
 faMarsDouble :: ClassName
-faMarsDouble = className "fa-mars-double"
+faMarsDouble = ClassName "fa-mars-double"
 
 faMarsStroke :: ClassName
-faMarsStroke = className "fa-mars-stroke"
+faMarsStroke = ClassName "fa-mars-stroke"
 
 faMarsStrokeH :: ClassName
-faMarsStrokeH = className "fa-mars-stroke-h"
+faMarsStrokeH = ClassName "fa-mars-stroke-h"
 
 faMarsStrokeV :: ClassName
-faMarsStrokeV = className "fa-mars-stroke-v"
+faMarsStrokeV = ClassName "fa-mars-stroke-v"
 
 faMaxcdn :: ClassName
-faMaxcdn = className "fa-maxcdn"
+faMaxcdn = ClassName "fa-maxcdn"
 
 faMeanpath :: ClassName
-faMeanpath = className "fa-meanpath"
+faMeanpath = ClassName "fa-meanpath"
 
 faMedium :: ClassName
-faMedium = className "fa-medium"
+faMedium = ClassName "fa-medium"
 
 faMedkit :: ClassName
-faMedkit = className "fa-medkit"
+faMedkit = ClassName "fa-medkit"
+
+faMeetup :: ClassName
+faMeetup = ClassName "fa-meetup"
 
 faMehO :: ClassName
-faMehO = className "fa-meh-o"
+faMehO = ClassName "fa-meh-o"
 
 faMercury :: ClassName
-faMercury = className "fa-mercury"
+faMercury = ClassName "fa-mercury"
+
+faMicrochip :: ClassName
+faMicrochip = ClassName "fa-microchip"
 
 faMicrophone :: ClassName
-faMicrophone = className "fa-microphone"
+faMicrophone = ClassName "fa-microphone"
 
 faMicrophoneSlash :: ClassName
-faMicrophoneSlash = className "fa-microphone-slash"
+faMicrophoneSlash = ClassName "fa-microphone-slash"
 
 faMinus :: ClassName
-faMinus = className "fa-minus"
+faMinus = ClassName "fa-minus"
 
 faMinusCircle :: ClassName
-faMinusCircle = className "fa-minus-circle"
+faMinusCircle = ClassName "fa-minus-circle"
 
 faMinusSquare :: ClassName
-faMinusSquare = className "fa-minus-square"
+faMinusSquare = ClassName "fa-minus-square"
 
 faMinusSquareO :: ClassName
-faMinusSquareO = className "fa-minus-square-o"
+faMinusSquareO = ClassName "fa-minus-square-o"
 
 faMixcloud :: ClassName
-faMixcloud = className "fa-mixcloud"
+faMixcloud = ClassName "fa-mixcloud"
 
 faMobile :: ClassName
-faMobile = className "fa-mobile"
+faMobile = ClassName "fa-mobile"
 
 faMobilePhone :: ClassName
-faMobilePhone = className "fa-mobile-phone"
+faMobilePhone = ClassName "fa-mobile-phone"
 
 faModx :: ClassName
-faModx = className "fa-modx"
+faModx = ClassName "fa-modx"
 
 faMoney :: ClassName
-faMoney = className "fa-money"
+faMoney = ClassName "fa-money"
 
 faMoonO :: ClassName
-faMoonO = className "fa-moon-o"
+faMoonO = ClassName "fa-moon-o"
 
 faMortarBoard :: ClassName
-faMortarBoard = className "fa-mortar-board"
+faMortarBoard = ClassName "fa-mortar-board"
 
 faMotorcycle :: ClassName
-faMotorcycle = className "fa-motorcycle"
+faMotorcycle = ClassName "fa-motorcycle"
 
 faMousePointer :: ClassName
-faMousePointer = className "fa-mouse-pointer"
+faMousePointer = ClassName "fa-mouse-pointer"
 
 faMusic :: ClassName
-faMusic = className "fa-music"
+faMusic = ClassName "fa-music"
 
 faNavicon :: ClassName
-faNavicon = className "fa-navicon"
+faNavicon = ClassName "fa-navicon"
 
 faNeuter :: ClassName
-faNeuter = className "fa-neuter"
+faNeuter = ClassName "fa-neuter"
 
 faNewspaperO :: ClassName
-faNewspaperO = className "fa-newspaper-o"
+faNewspaperO = ClassName "fa-newspaper-o"
 
 faObjectGroup :: ClassName
-faObjectGroup = className "fa-object-group"
+faObjectGroup = ClassName "fa-object-group"
 
 faObjectUngroup :: ClassName
-faObjectUngroup = className "fa-object-ungroup"
+faObjectUngroup = ClassName "fa-object-ungroup"
 
 faOdnoklassniki :: ClassName
-faOdnoklassniki = className "fa-odnoklassniki"
+faOdnoklassniki = ClassName "fa-odnoklassniki"
 
 faOdnoklassnikiSquare :: ClassName
-faOdnoklassnikiSquare = className "fa-odnoklassniki-square"
+faOdnoklassnikiSquare = ClassName "fa-odnoklassniki-square"
 
 faOpencart :: ClassName
-faOpencart = className "fa-opencart"
+faOpencart = ClassName "fa-opencart"
 
 faOpenid :: ClassName
-faOpenid = className "fa-openid"
+faOpenid = ClassName "fa-openid"
 
 faOpera :: ClassName
-faOpera = className "fa-opera"
+faOpera = ClassName "fa-opera"
 
 faOptinMonster :: ClassName
-faOptinMonster = className "fa-optin-monster"
+faOptinMonster = ClassName "fa-optin-monster"
 
 faOutdent :: ClassName
-faOutdent = className "fa-outdent"
+faOutdent = ClassName "fa-outdent"
 
 faPagelines :: ClassName
-faPagelines = className "fa-pagelines"
+faPagelines = ClassName "fa-pagelines"
 
 faPaintBrush :: ClassName
-faPaintBrush = className "fa-paint-brush"
+faPaintBrush = ClassName "fa-paint-brush"
 
 faPaperPlane :: ClassName
-faPaperPlane = className "fa-paper-plane"
+faPaperPlane = ClassName "fa-paper-plane"
 
 faPaperPlaneO :: ClassName
-faPaperPlaneO = className "fa-paper-plane-o"
+faPaperPlaneO = ClassName "fa-paper-plane-o"
 
 faPaperclip :: ClassName
-faPaperclip = className "fa-paperclip"
+faPaperclip = ClassName "fa-paperclip"
 
 faParagraph :: ClassName
-faParagraph = className "fa-paragraph"
+faParagraph = ClassName "fa-paragraph"
 
 faPaste :: ClassName
-faPaste = className "fa-paste"
+faPaste = ClassName "fa-paste"
 
 faPause :: ClassName
-faPause = className "fa-pause"
+faPause = ClassName "fa-pause"
 
 faPauseCircle :: ClassName
-faPauseCircle = className "fa-pause-circle"
+faPauseCircle = ClassName "fa-pause-circle"
 
 faPauseCircleO :: ClassName
-faPauseCircleO = className "fa-pause-circle-o"
+faPauseCircleO = ClassName "fa-pause-circle-o"
 
 faPaw :: ClassName
-faPaw = className "fa-paw"
+faPaw = ClassName "fa-paw"
 
 faPaypal :: ClassName
-faPaypal = className "fa-paypal"
+faPaypal = ClassName "fa-paypal"
 
 faPencil :: ClassName
-faPencil = className "fa-pencil"
+faPencil = ClassName "fa-pencil"
 
 faPencilSquare :: ClassName
-faPencilSquare = className "fa-pencil-square"
+faPencilSquare = ClassName "fa-pencil-square"
 
 faPencilSquareO :: ClassName
-faPencilSquareO = className "fa-pencil-square-o"
+faPencilSquareO = ClassName "fa-pencil-square-o"
 
 faPercent :: ClassName
-faPercent = className "fa-percent"
+faPercent = ClassName "fa-percent"
 
 faPhone :: ClassName
-faPhone = className "fa-phone"
+faPhone = ClassName "fa-phone"
 
 faPhoneSquare :: ClassName
-faPhoneSquare = className "fa-phone-square"
+faPhoneSquare = ClassName "fa-phone-square"
 
 faPhoto :: ClassName
-faPhoto = className "fa-photo"
+faPhoto = ClassName "fa-photo"
 
 faPictureO :: ClassName
-faPictureO = className "fa-picture-o"
+faPictureO = ClassName "fa-picture-o"
 
 faPieChart :: ClassName
-faPieChart = className "fa-pie-chart"
+faPieChart = ClassName "fa-pie-chart"
 
 faPiedPiper :: ClassName
-faPiedPiper = className "fa-pied-piper"
+faPiedPiper = ClassName "fa-pied-piper"
 
 faPiedPiperAlt :: ClassName
-faPiedPiperAlt = className "fa-pied-piper-alt"
+faPiedPiperAlt = ClassName "fa-pied-piper-alt"
 
 faPiedPiperPp :: ClassName
-faPiedPiperPp = className "fa-pied-piper-pp"
+faPiedPiperPp = ClassName "fa-pied-piper-pp"
 
 faPinterest :: ClassName
-faPinterest = className "fa-pinterest"
+faPinterest = ClassName "fa-pinterest"
 
 faPinterestP :: ClassName
-faPinterestP = className "fa-pinterest-p"
+faPinterestP = ClassName "fa-pinterest-p"
 
 faPinterestSquare :: ClassName
-faPinterestSquare = className "fa-pinterest-square"
+faPinterestSquare = ClassName "fa-pinterest-square"
 
 faPlane :: ClassName
-faPlane = className "fa-plane"
+faPlane = ClassName "fa-plane"
 
 faPlay :: ClassName
-faPlay = className "fa-play"
+faPlay = ClassName "fa-play"
 
 faPlayCircle :: ClassName
-faPlayCircle = className "fa-play-circle"
+faPlayCircle = ClassName "fa-play-circle"
 
 faPlayCircleO :: ClassName
-faPlayCircleO = className "fa-play-circle-o"
+faPlayCircleO = ClassName "fa-play-circle-o"
 
 faPlug :: ClassName
-faPlug = className "fa-plug"
+faPlug = ClassName "fa-plug"
 
 faPlus :: ClassName
-faPlus = className "fa-plus"
+faPlus = ClassName "fa-plus"
 
 faPlusCircle :: ClassName
-faPlusCircle = className "fa-plus-circle"
+faPlusCircle = ClassName "fa-plus-circle"
 
 faPlusSquare :: ClassName
-faPlusSquare = className "fa-plus-square"
+faPlusSquare = ClassName "fa-plus-square"
 
 faPlusSquareO :: ClassName
-faPlusSquareO = className "fa-plus-square-o"
+faPlusSquareO = ClassName "fa-plus-square-o"
+
+faPodcast :: ClassName
+faPodcast = ClassName "fa-podcast"
 
 faPowerOff :: ClassName
-faPowerOff = className "fa-power-off"
+faPowerOff = ClassName "fa-power-off"
 
 faPrint :: ClassName
-faPrint = className "fa-print"
+faPrint = ClassName "fa-print"
 
 faProductHunt :: ClassName
-faProductHunt = className "fa-product-hunt"
+faProductHunt = ClassName "fa-product-hunt"
 
 faPullLeft :: ClassName
-faPullLeft = className "fa-pull-left"
+faPullLeft = ClassName "fa-pull-left"
 
 faPullRight :: ClassName
-faPullRight = className "fa-pull-right"
+faPullRight = ClassName "fa-pull-right"
 
 faPulse :: ClassName
-faPulse = className "fa-pulse"
+faPulse = ClassName "fa-pulse"
 
 faPuzzlePiece :: ClassName
-faPuzzlePiece = className "fa-puzzle-piece"
+faPuzzlePiece = ClassName "fa-puzzle-piece"
 
 faQq :: ClassName
-faQq = className "fa-qq"
+faQq = ClassName "fa-qq"
 
 faQrcode :: ClassName
-faQrcode = className "fa-qrcode"
+faQrcode = ClassName "fa-qrcode"
 
 faQuestion :: ClassName
-faQuestion = className "fa-question"
+faQuestion = ClassName "fa-question"
 
 faQuestionCircle :: ClassName
-faQuestionCircle = className "fa-question-circle"
+faQuestionCircle = ClassName "fa-question-circle"
 
 faQuestionCircleO :: ClassName
-faQuestionCircleO = className "fa-question-circle-o"
+faQuestionCircleO = ClassName "fa-question-circle-o"
+
+faQuora :: ClassName
+faQuora = ClassName "fa-quora"
 
 faQuoteLeft :: ClassName
-faQuoteLeft = className "fa-quote-left"
+faQuoteLeft = ClassName "fa-quote-left"
 
 faQuoteRight :: ClassName
-faQuoteRight = className "fa-quote-right"
+faQuoteRight = ClassName "fa-quote-right"
 
 faRa :: ClassName
-faRa = className "fa-ra"
+faRa = ClassName "fa-ra"
 
 faRandom :: ClassName
-faRandom = className "fa-random"
+faRandom = ClassName "fa-random"
+
+faRavelry :: ClassName
+faRavelry = ClassName "fa-ravelry"
 
 faRebel :: ClassName
-faRebel = className "fa-rebel"
+faRebel = ClassName "fa-rebel"
 
 faRecycle :: ClassName
-faRecycle = className "fa-recycle"
+faRecycle = ClassName "fa-recycle"
 
 faReddit :: ClassName
-faReddit = className "fa-reddit"
+faReddit = ClassName "fa-reddit"
 
 faRedditAlien :: ClassName
-faRedditAlien = className "fa-reddit-alien"
+faRedditAlien = ClassName "fa-reddit-alien"
 
 faRedditSquare :: ClassName
-faRedditSquare = className "fa-reddit-square"
+faRedditSquare = ClassName "fa-reddit-square"
 
 faRefresh :: ClassName
-faRefresh = className "fa-refresh"
+faRefresh = ClassName "fa-refresh"
 
 faRegistered :: ClassName
-faRegistered = className "fa-registered"
+faRegistered = ClassName "fa-registered"
 
 faRemove :: ClassName
-faRemove = className "fa-remove"
+faRemove = ClassName "fa-remove"
 
 faRenren :: ClassName
-faRenren = className "fa-renren"
+faRenren = ClassName "fa-renren"
 
 faReorder :: ClassName
-faReorder = className "fa-reorder"
+faReorder = ClassName "fa-reorder"
 
 faRepeat :: ClassName
-faRepeat = className "fa-repeat"
+faRepeat = ClassName "fa-repeat"
 
 faReply :: ClassName
-faReply = className "fa-reply"
+faReply = ClassName "fa-reply"
 
 faReplyAll :: ClassName
-faReplyAll = className "fa-reply-all"
+faReplyAll = ClassName "fa-reply-all"
 
 faResistance :: ClassName
-faResistance = className "fa-resistance"
+faResistance = ClassName "fa-resistance"
 
 faRetweet :: ClassName
-faRetweet = className "fa-retweet"
+faRetweet = ClassName "fa-retweet"
 
 faRmb :: ClassName
-faRmb = className "fa-rmb"
+faRmb = ClassName "fa-rmb"
 
 faRoad :: ClassName
-faRoad = className "fa-road"
+faRoad = ClassName "fa-road"
 
 faRocket :: ClassName
-faRocket = className "fa-rocket"
+faRocket = ClassName "fa-rocket"
 
 faRotate180 :: ClassName
-faRotate180 = className "fa-rotate-180"
+faRotate180 = ClassName "fa-rotate-180"
 
 faRotate270 :: ClassName
-faRotate270 = className "fa-rotate-270"
+faRotate270 = ClassName "fa-rotate-270"
 
 faRotate90 :: ClassName
-faRotate90 = className "fa-rotate-90"
+faRotate90 = ClassName "fa-rotate-90"
 
 faRotateLeft :: ClassName
-faRotateLeft = className "fa-rotate-left"
+faRotateLeft = ClassName "fa-rotate-left"
 
 faRotateRight :: ClassName
-faRotateRight = className "fa-rotate-right"
+faRotateRight = ClassName "fa-rotate-right"
 
 faRouble :: ClassName
-faRouble = className "fa-rouble"
+faRouble = ClassName "fa-rouble"
 
 faRss :: ClassName
-faRss = className "fa-rss"
+faRss = ClassName "fa-rss"
 
 faRssSquare :: ClassName
-faRssSquare = className "fa-rss-square"
+faRssSquare = ClassName "fa-rss-square"
 
 faRub :: ClassName
-faRub = className "fa-rub"
+faRub = ClassName "fa-rub"
 
 faRuble :: ClassName
-faRuble = className "fa-ruble"
+faRuble = ClassName "fa-ruble"
 
 faRupee :: ClassName
-faRupee = className "fa-rupee"
+faRupee = ClassName "fa-rupee"
+
+faS15 :: ClassName
+faS15 = ClassName "fa-s15"
 
 faSafari :: ClassName
-faSafari = className "fa-safari"
+faSafari = ClassName "fa-safari"
 
 faSave :: ClassName
-faSave = className "fa-save"
+faSave = ClassName "fa-save"
 
 faScissors :: ClassName
-faScissors = className "fa-scissors"
+faScissors = ClassName "fa-scissors"
 
 faScribd :: ClassName
-faScribd = className "fa-scribd"
+faScribd = ClassName "fa-scribd"
 
 faSearch :: ClassName
-faSearch = className "fa-search"
+faSearch = ClassName "fa-search"
 
 faSearchMinus :: ClassName
-faSearchMinus = className "fa-search-minus"
+faSearchMinus = ClassName "fa-search-minus"
 
 faSearchPlus :: ClassName
-faSearchPlus = className "fa-search-plus"
+faSearchPlus = ClassName "fa-search-plus"
 
 faSellsy :: ClassName
-faSellsy = className "fa-sellsy"
+faSellsy = ClassName "fa-sellsy"
 
 faSend :: ClassName
-faSend = className "fa-send"
+faSend = ClassName "fa-send"
 
 faSendO :: ClassName
-faSendO = className "fa-send-o"
+faSendO = ClassName "fa-send-o"
 
 faServer :: ClassName
-faServer = className "fa-server"
+faServer = ClassName "fa-server"
 
 faShare :: ClassName
-faShare = className "fa-share"
+faShare = ClassName "fa-share"
 
 faShareAlt :: ClassName
-faShareAlt = className "fa-share-alt"
+faShareAlt = ClassName "fa-share-alt"
 
 faShareAltSquare :: ClassName
-faShareAltSquare = className "fa-share-alt-square"
+faShareAltSquare = ClassName "fa-share-alt-square"
 
 faShareSquare :: ClassName
-faShareSquare = className "fa-share-square"
+faShareSquare = ClassName "fa-share-square"
 
 faShareSquareO :: ClassName
-faShareSquareO = className "fa-share-square-o"
+faShareSquareO = ClassName "fa-share-square-o"
 
 faShekel :: ClassName
-faShekel = className "fa-shekel"
+faShekel = ClassName "fa-shekel"
 
 faSheqel :: ClassName
-faSheqel = className "fa-sheqel"
+faSheqel = ClassName "fa-sheqel"
 
 faShield :: ClassName
-faShield = className "fa-shield"
+faShield = ClassName "fa-shield"
 
 faShip :: ClassName
-faShip = className "fa-ship"
+faShip = ClassName "fa-ship"
 
 faShirtsinbulk :: ClassName
-faShirtsinbulk = className "fa-shirtsinbulk"
+faShirtsinbulk = ClassName "fa-shirtsinbulk"
 
 faShoppingBag :: ClassName
-faShoppingBag = className "fa-shopping-bag"
+faShoppingBag = ClassName "fa-shopping-bag"
 
 faShoppingBasket :: ClassName
-faShoppingBasket = className "fa-shopping-basket"
+faShoppingBasket = ClassName "fa-shopping-basket"
 
 faShoppingCart :: ClassName
-faShoppingCart = className "fa-shopping-cart"
+faShoppingCart = ClassName "fa-shopping-cart"
+
+faShower :: ClassName
+faShower = ClassName "fa-shower"
 
 faSignIn :: ClassName
-faSignIn = className "fa-sign-in"
+faSignIn = ClassName "fa-sign-in"
 
 faSignLanguage :: ClassName
-faSignLanguage = className "fa-sign-language"
+faSignLanguage = ClassName "fa-sign-language"
 
 faSignOut :: ClassName
-faSignOut = className "fa-sign-out"
+faSignOut = ClassName "fa-sign-out"
 
 faSignal :: ClassName
-faSignal = className "fa-signal"
+faSignal = ClassName "fa-signal"
 
 faSigning :: ClassName
-faSigning = className "fa-signing"
+faSigning = ClassName "fa-signing"
 
 faSimplybuilt :: ClassName
-faSimplybuilt = className "fa-simplybuilt"
+faSimplybuilt = ClassName "fa-simplybuilt"
 
 faSitemap :: ClassName
-faSitemap = className "fa-sitemap"
+faSitemap = ClassName "fa-sitemap"
 
 faSkyatlas :: ClassName
-faSkyatlas = className "fa-skyatlas"
+faSkyatlas = ClassName "fa-skyatlas"
 
 faSkype :: ClassName
-faSkype = className "fa-skype"
+faSkype = ClassName "fa-skype"
 
 faSlack :: ClassName
-faSlack = className "fa-slack"
+faSlack = ClassName "fa-slack"
 
 faSliders :: ClassName
-faSliders = className "fa-sliders"
+faSliders = ClassName "fa-sliders"
 
 faSlideshare :: ClassName
-faSlideshare = className "fa-slideshare"
+faSlideshare = ClassName "fa-slideshare"
 
 faSmileO :: ClassName
-faSmileO = className "fa-smile-o"
+faSmileO = ClassName "fa-smile-o"
 
 faSnapchat :: ClassName
-faSnapchat = className "fa-snapchat"
+faSnapchat = ClassName "fa-snapchat"
 
 faSnapchatGhost :: ClassName
-faSnapchatGhost = className "fa-snapchat-ghost"
+faSnapchatGhost = ClassName "fa-snapchat-ghost"
 
 faSnapchatSquare :: ClassName
-faSnapchatSquare = className "fa-snapchat-square"
+faSnapchatSquare = ClassName "fa-snapchat-square"
+
+faSnowflakeO :: ClassName
+faSnowflakeO = ClassName "fa-snowflake-o"
 
 faSoccerBallO :: ClassName
-faSoccerBallO = className "fa-soccer-ball-o"
+faSoccerBallO = ClassName "fa-soccer-ball-o"
 
 faSort :: ClassName
-faSort = className "fa-sort"
+faSort = ClassName "fa-sort"
 
 faSortAlphaAsc :: ClassName
-faSortAlphaAsc = className "fa-sort-alpha-asc"
+faSortAlphaAsc = ClassName "fa-sort-alpha-asc"
 
 faSortAlphaDesc :: ClassName
-faSortAlphaDesc = className "fa-sort-alpha-desc"
+faSortAlphaDesc = ClassName "fa-sort-alpha-desc"
 
 faSortAmountAsc :: ClassName
-faSortAmountAsc = className "fa-sort-amount-asc"
+faSortAmountAsc = ClassName "fa-sort-amount-asc"
 
 faSortAmountDesc :: ClassName
-faSortAmountDesc = className "fa-sort-amount-desc"
+faSortAmountDesc = ClassName "fa-sort-amount-desc"
 
 faSortAsc :: ClassName
-faSortAsc = className "fa-sort-asc"
+faSortAsc = ClassName "fa-sort-asc"
 
 faSortDesc :: ClassName
-faSortDesc = className "fa-sort-desc"
+faSortDesc = ClassName "fa-sort-desc"
 
 faSortDown :: ClassName
-faSortDown = className "fa-sort-down"
+faSortDown = ClassName "fa-sort-down"
 
 faSortNumericAsc :: ClassName
-faSortNumericAsc = className "fa-sort-numeric-asc"
+faSortNumericAsc = ClassName "fa-sort-numeric-asc"
 
 faSortNumericDesc :: ClassName
-faSortNumericDesc = className "fa-sort-numeric-desc"
+faSortNumericDesc = ClassName "fa-sort-numeric-desc"
 
 faSortUp :: ClassName
-faSortUp = className "fa-sort-up"
+faSortUp = ClassName "fa-sort-up"
 
 faSoundcloud :: ClassName
-faSoundcloud = className "fa-soundcloud"
+faSoundcloud = ClassName "fa-soundcloud"
 
 faSpaceShuttle :: ClassName
-faSpaceShuttle = className "fa-space-shuttle"
+faSpaceShuttle = ClassName "fa-space-shuttle"
 
 faSpin :: ClassName
-faSpin = className "fa-spin"
+faSpin = ClassName "fa-spin"
 
 faSpinner :: ClassName
-faSpinner = className "fa-spinner"
+faSpinner = ClassName "fa-spinner"
 
 faSpoon :: ClassName
-faSpoon = className "fa-spoon"
+faSpoon = ClassName "fa-spoon"
 
 faSpotify :: ClassName
-faSpotify = className "fa-spotify"
+faSpotify = ClassName "fa-spotify"
 
 faSquare :: ClassName
-faSquare = className "fa-square"
+faSquare = ClassName "fa-square"
 
 faSquareO :: ClassName
-faSquareO = className "fa-square-o"
+faSquareO = ClassName "fa-square-o"
 
 faStack :: ClassName
-faStack = className "fa-stack"
+faStack = ClassName "fa-stack"
 
 faStack1X :: ClassName
-faStack1X = className "fa-stack-1x"
+faStack1X = ClassName "fa-stack-1x"
 
 faStack2X :: ClassName
-faStack2X = className "fa-stack-2x"
+faStack2X = ClassName "fa-stack-2x"
 
 faStackExchange :: ClassName
-faStackExchange = className "fa-stack-exchange"
+faStackExchange = ClassName "fa-stack-exchange"
 
 faStackOverflow :: ClassName
-faStackOverflow = className "fa-stack-overflow"
+faStackOverflow = ClassName "fa-stack-overflow"
 
 faStar :: ClassName
-faStar = className "fa-star"
+faStar = ClassName "fa-star"
 
 faStarHalf :: ClassName
-faStarHalf = className "fa-star-half"
+faStarHalf = ClassName "fa-star-half"
 
 faStarHalfEmpty :: ClassName
-faStarHalfEmpty = className "fa-star-half-empty"
+faStarHalfEmpty = ClassName "fa-star-half-empty"
 
 faStarHalfFull :: ClassName
-faStarHalfFull = className "fa-star-half-full"
+faStarHalfFull = ClassName "fa-star-half-full"
 
 faStarHalfO :: ClassName
-faStarHalfO = className "fa-star-half-o"
+faStarHalfO = ClassName "fa-star-half-o"
 
 faStarO :: ClassName
-faStarO = className "fa-star-o"
+faStarO = ClassName "fa-star-o"
 
 faSteam :: ClassName
-faSteam = className "fa-steam"
+faSteam = ClassName "fa-steam"
 
 faSteamSquare :: ClassName
-faSteamSquare = className "fa-steam-square"
+faSteamSquare = ClassName "fa-steam-square"
 
 faStepBackward :: ClassName
-faStepBackward = className "fa-step-backward"
+faStepBackward = ClassName "fa-step-backward"
 
 faStepForward :: ClassName
-faStepForward = className "fa-step-forward"
+faStepForward = ClassName "fa-step-forward"
 
 faStethoscope :: ClassName
-faStethoscope = className "fa-stethoscope"
+faStethoscope = ClassName "fa-stethoscope"
 
 faStickyNote :: ClassName
-faStickyNote = className "fa-sticky-note"
+faStickyNote = ClassName "fa-sticky-note"
 
 faStickyNoteO :: ClassName
-faStickyNoteO = className "fa-sticky-note-o"
+faStickyNoteO = ClassName "fa-sticky-note-o"
 
 faStop :: ClassName
-faStop = className "fa-stop"
+faStop = ClassName "fa-stop"
 
 faStopCircle :: ClassName
-faStopCircle = className "fa-stop-circle"
+faStopCircle = ClassName "fa-stop-circle"
 
 faStopCircleO :: ClassName
-faStopCircleO = className "fa-stop-circle-o"
+faStopCircleO = ClassName "fa-stop-circle-o"
 
 faStreetView :: ClassName
-faStreetView = className "fa-street-view"
+faStreetView = ClassName "fa-street-view"
 
 faStrikethrough :: ClassName
-faStrikethrough = className "fa-strikethrough"
+faStrikethrough = ClassName "fa-strikethrough"
 
 faStumbleupon :: ClassName
-faStumbleupon = className "fa-stumbleupon"
+faStumbleupon = ClassName "fa-stumbleupon"
 
 faStumbleuponCircle :: ClassName
-faStumbleuponCircle = className "fa-stumbleupon-circle"
+faStumbleuponCircle = ClassName "fa-stumbleupon-circle"
 
 faSubscript :: ClassName
-faSubscript = className "fa-subscript"
+faSubscript = ClassName "fa-subscript"
 
 faSubway :: ClassName
-faSubway = className "fa-subway"
+faSubway = ClassName "fa-subway"
 
 faSuitcase :: ClassName
-faSuitcase = className "fa-suitcase"
+faSuitcase = ClassName "fa-suitcase"
 
 faSunO :: ClassName
-faSunO = className "fa-sun-o"
+faSunO = ClassName "fa-sun-o"
+
+faSuperpowers :: ClassName
+faSuperpowers = ClassName "fa-superpowers"
 
 faSuperscript :: ClassName
-faSuperscript = className "fa-superscript"
+faSuperscript = ClassName "fa-superscript"
 
 faSupport :: ClassName
-faSupport = className "fa-support"
+faSupport = ClassName "fa-support"
 
 faTable :: ClassName
-faTable = className "fa-table"
+faTable = ClassName "fa-table"
 
 faTablet :: ClassName
-faTablet = className "fa-tablet"
+faTablet = ClassName "fa-tablet"
 
 faTachometer :: ClassName
-faTachometer = className "fa-tachometer"
+faTachometer = ClassName "fa-tachometer"
 
 faTag :: ClassName
-faTag = className "fa-tag"
+faTag = ClassName "fa-tag"
 
 faTags :: ClassName
-faTags = className "fa-tags"
+faTags = ClassName "fa-tags"
 
 faTasks :: ClassName
-faTasks = className "fa-tasks"
+faTasks = ClassName "fa-tasks"
 
 faTaxi :: ClassName
-faTaxi = className "fa-taxi"
+faTaxi = ClassName "fa-taxi"
+
+faTelegram :: ClassName
+faTelegram = ClassName "fa-telegram"
 
 faTelevision :: ClassName
-faTelevision = className "fa-television"
+faTelevision = ClassName "fa-television"
 
 faTencentWeibo :: ClassName
-faTencentWeibo = className "fa-tencent-weibo"
+faTencentWeibo = ClassName "fa-tencent-weibo"
 
 faTerminal :: ClassName
-faTerminal = className "fa-terminal"
+faTerminal = ClassName "fa-terminal"
 
 faTextHeight :: ClassName
-faTextHeight = className "fa-text-height"
+faTextHeight = ClassName "fa-text-height"
 
 faTextWidth :: ClassName
-faTextWidth = className "fa-text-width"
+faTextWidth = ClassName "fa-text-width"
 
 faTh :: ClassName
-faTh = className "fa-th"
+faTh = ClassName "fa-th"
 
 faThLarge :: ClassName
-faThLarge = className "fa-th-large"
+faThLarge = ClassName "fa-th-large"
 
 faThList :: ClassName
-faThList = className "fa-th-list"
+faThList = ClassName "fa-th-list"
 
 faThemeisle :: ClassName
-faThemeisle = className "fa-themeisle"
+faThemeisle = ClassName "fa-themeisle"
+
+faThermometer :: ClassName
+faThermometer = ClassName "fa-thermometer"
+
+faThermometer0 :: ClassName
+faThermometer0 = ClassName "fa-thermometer-0"
+
+faThermometer1 :: ClassName
+faThermometer1 = ClassName "fa-thermometer-1"
+
+faThermometer2 :: ClassName
+faThermometer2 = ClassName "fa-thermometer-2"
+
+faThermometer3 :: ClassName
+faThermometer3 = ClassName "fa-thermometer-3"
+
+faThermometer4 :: ClassName
+faThermometer4 = ClassName "fa-thermometer-4"
+
+faThermometerEmpty :: ClassName
+faThermometerEmpty = ClassName "fa-thermometer-empty"
+
+faThermometerFull :: ClassName
+faThermometerFull = ClassName "fa-thermometer-full"
+
+faThermometerHalf :: ClassName
+faThermometerHalf = ClassName "fa-thermometer-half"
+
+faThermometerQuarter :: ClassName
+faThermometerQuarter = ClassName "fa-thermometer-quarter"
+
+faThermometerThreeQuarters :: ClassName
+faThermometerThreeQuarters = ClassName "fa-thermometer-three-quarters"
 
 faThumbTack :: ClassName
-faThumbTack = className "fa-thumb-tack"
+faThumbTack = ClassName "fa-thumb-tack"
 
 faThumbsDown :: ClassName
-faThumbsDown = className "fa-thumbs-down"
+faThumbsDown = ClassName "fa-thumbs-down"
 
 faThumbsODown :: ClassName
-faThumbsODown = className "fa-thumbs-o-down"
+faThumbsODown = ClassName "fa-thumbs-o-down"
 
 faThumbsOUp :: ClassName
-faThumbsOUp = className "fa-thumbs-o-up"
+faThumbsOUp = ClassName "fa-thumbs-o-up"
 
 faThumbsUp :: ClassName
-faThumbsUp = className "fa-thumbs-up"
+faThumbsUp = ClassName "fa-thumbs-up"
 
 faTicket :: ClassName
-faTicket = className "fa-ticket"
+faTicket = ClassName "fa-ticket"
 
 faTimes :: ClassName
-faTimes = className "fa-times"
+faTimes = ClassName "fa-times"
 
 faTimesCircle :: ClassName
-faTimesCircle = className "fa-times-circle"
+faTimesCircle = ClassName "fa-times-circle"
 
 faTimesCircleO :: ClassName
-faTimesCircleO = className "fa-times-circle-o"
+faTimesCircleO = ClassName "fa-times-circle-o"
+
+faTimesRectangle :: ClassName
+faTimesRectangle = ClassName "fa-times-rectangle"
+
+faTimesRectangleO :: ClassName
+faTimesRectangleO = ClassName "fa-times-rectangle-o"
 
 faTint :: ClassName
-faTint = className "fa-tint"
+faTint = ClassName "fa-tint"
 
 faToggleDown :: ClassName
-faToggleDown = className "fa-toggle-down"
+faToggleDown = ClassName "fa-toggle-down"
 
 faToggleLeft :: ClassName
-faToggleLeft = className "fa-toggle-left"
+faToggleLeft = ClassName "fa-toggle-left"
 
 faToggleOff :: ClassName
-faToggleOff = className "fa-toggle-off"
+faToggleOff = ClassName "fa-toggle-off"
 
 faToggleOn :: ClassName
-faToggleOn = className "fa-toggle-on"
+faToggleOn = ClassName "fa-toggle-on"
 
 faToggleRight :: ClassName
-faToggleRight = className "fa-toggle-right"
+faToggleRight = ClassName "fa-toggle-right"
 
 faToggleUp :: ClassName
-faToggleUp = className "fa-toggle-up"
+faToggleUp = ClassName "fa-toggle-up"
 
 faTrademark :: ClassName
-faTrademark = className "fa-trademark"
+faTrademark = ClassName "fa-trademark"
 
 faTrain :: ClassName
-faTrain = className "fa-train"
+faTrain = ClassName "fa-train"
 
 faTransgender :: ClassName
-faTransgender = className "fa-transgender"
+faTransgender = ClassName "fa-transgender"
 
 faTransgenderAlt :: ClassName
-faTransgenderAlt = className "fa-transgender-alt"
+faTransgenderAlt = ClassName "fa-transgender-alt"
 
 faTrash :: ClassName
-faTrash = className "fa-trash"
+faTrash = ClassName "fa-trash"
 
 faTrashO :: ClassName
-faTrashO = className "fa-trash-o"
+faTrashO = ClassName "fa-trash-o"
 
 faTree :: ClassName
-faTree = className "fa-tree"
+faTree = ClassName "fa-tree"
 
 faTrello :: ClassName
-faTrello = className "fa-trello"
+faTrello = ClassName "fa-trello"
 
 faTripadvisor :: ClassName
-faTripadvisor = className "fa-tripadvisor"
+faTripadvisor = ClassName "fa-tripadvisor"
 
 faTrophy :: ClassName
-faTrophy = className "fa-trophy"
+faTrophy = ClassName "fa-trophy"
 
 faTruck :: ClassName
-faTruck = className "fa-truck"
+faTruck = ClassName "fa-truck"
 
 faTry :: ClassName
-faTry = className "fa-try"
+faTry = ClassName "fa-try"
 
 faTty :: ClassName
-faTty = className "fa-tty"
+faTty = ClassName "fa-tty"
 
 faTumblr :: ClassName
-faTumblr = className "fa-tumblr"
+faTumblr = ClassName "fa-tumblr"
 
 faTumblrSquare :: ClassName
-faTumblrSquare = className "fa-tumblr-square"
+faTumblrSquare = ClassName "fa-tumblr-square"
 
 faTurkishLira :: ClassName
-faTurkishLira = className "fa-turkish-lira"
+faTurkishLira = ClassName "fa-turkish-lira"
 
 faTv :: ClassName
-faTv = className "fa-tv"
+faTv = ClassName "fa-tv"
 
 faTwitch :: ClassName
-faTwitch = className "fa-twitch"
+faTwitch = ClassName "fa-twitch"
 
 faTwitter :: ClassName
-faTwitter = className "fa-twitter"
+faTwitter = ClassName "fa-twitter"
 
 faTwitterSquare :: ClassName
-faTwitterSquare = className "fa-twitter-square"
+faTwitterSquare = ClassName "fa-twitter-square"
 
 faUl :: ClassName
-faUl = className "fa-ul"
+faUl = ClassName "fa-ul"
 
 faUmbrella :: ClassName
-faUmbrella = className "fa-umbrella"
+faUmbrella = ClassName "fa-umbrella"
 
 faUnderline :: ClassName
-faUnderline = className "fa-underline"
+faUnderline = ClassName "fa-underline"
 
 faUndo :: ClassName
-faUndo = className "fa-undo"
+faUndo = ClassName "fa-undo"
 
 faUniversalAccess :: ClassName
-faUniversalAccess = className "fa-universal-access"
+faUniversalAccess = ClassName "fa-universal-access"
 
 faUniversity :: ClassName
-faUniversity = className "fa-university"
+faUniversity = ClassName "fa-university"
 
 faUnlink :: ClassName
-faUnlink = className "fa-unlink"
+faUnlink = ClassName "fa-unlink"
 
 faUnlock :: ClassName
-faUnlock = className "fa-unlock"
+faUnlock = ClassName "fa-unlock"
 
 faUnlockAlt :: ClassName
-faUnlockAlt = className "fa-unlock-alt"
+faUnlockAlt = ClassName "fa-unlock-alt"
 
 faUnsorted :: ClassName
-faUnsorted = className "fa-unsorted"
+faUnsorted = ClassName "fa-unsorted"
 
 faUpload :: ClassName
-faUpload = className "fa-upload"
+faUpload = ClassName "fa-upload"
 
 faUsb :: ClassName
-faUsb = className "fa-usb"
+faUsb = ClassName "fa-usb"
 
 faUsd :: ClassName
-faUsd = className "fa-usd"
+faUsd = ClassName "fa-usd"
 
 faUser :: ClassName
-faUser = className "fa-user"
+faUser = ClassName "fa-user"
+
+faUserCircle :: ClassName
+faUserCircle = ClassName "fa-user-circle"
+
+faUserCircleO :: ClassName
+faUserCircleO = ClassName "fa-user-circle-o"
 
 faUserMd :: ClassName
-faUserMd = className "fa-user-md"
+faUserMd = ClassName "fa-user-md"
+
+faUserO :: ClassName
+faUserO = ClassName "fa-user-o"
 
 faUserPlus :: ClassName
-faUserPlus = className "fa-user-plus"
+faUserPlus = ClassName "fa-user-plus"
 
 faUserSecret :: ClassName
-faUserSecret = className "fa-user-secret"
+faUserSecret = ClassName "fa-user-secret"
 
 faUserTimes :: ClassName
-faUserTimes = className "fa-user-times"
+faUserTimes = ClassName "fa-user-times"
 
 faUsers :: ClassName
-faUsers = className "fa-users"
+faUsers = ClassName "fa-users"
+
+faVcard :: ClassName
+faVcard = ClassName "fa-vcard"
+
+faVcardO :: ClassName
+faVcardO = ClassName "fa-vcard-o"
 
 faVenus :: ClassName
-faVenus = className "fa-venus"
+faVenus = ClassName "fa-venus"
 
 faVenusDouble :: ClassName
-faVenusDouble = className "fa-venus-double"
+faVenusDouble = ClassName "fa-venus-double"
 
 faVenusMars :: ClassName
-faVenusMars = className "fa-venus-mars"
+faVenusMars = ClassName "fa-venus-mars"
 
 faViacoin :: ClassName
-faViacoin = className "fa-viacoin"
+faViacoin = ClassName "fa-viacoin"
 
 faViadeo :: ClassName
-faViadeo = className "fa-viadeo"
+faViadeo = ClassName "fa-viadeo"
 
 faViadeoSquare :: ClassName
-faViadeoSquare = className "fa-viadeo-square"
+faViadeoSquare = ClassName "fa-viadeo-square"
 
 faVideoCamera :: ClassName
-faVideoCamera = className "fa-video-camera"
+faVideoCamera = ClassName "fa-video-camera"
 
 faVimeo :: ClassName
-faVimeo = className "fa-vimeo"
+faVimeo = ClassName "fa-vimeo"
 
 faVimeoSquare :: ClassName
-faVimeoSquare = className "fa-vimeo-square"
+faVimeoSquare = ClassName "fa-vimeo-square"
 
 faVine :: ClassName
-faVine = className "fa-vine"
+faVine = ClassName "fa-vine"
 
 faVk :: ClassName
-faVk = className "fa-vk"
+faVk = ClassName "fa-vk"
 
 faVolumeControlPhone :: ClassName
-faVolumeControlPhone = className "fa-volume-control-phone"
+faVolumeControlPhone = ClassName "fa-volume-control-phone"
 
 faVolumeDown :: ClassName
-faVolumeDown = className "fa-volume-down"
+faVolumeDown = ClassName "fa-volume-down"
 
 faVolumeOff :: ClassName
-faVolumeOff = className "fa-volume-off"
+faVolumeOff = ClassName "fa-volume-off"
 
 faVolumeUp :: ClassName
-faVolumeUp = className "fa-volume-up"
+faVolumeUp = ClassName "fa-volume-up"
 
 faWarning :: ClassName
-faWarning = className "fa-warning"
+faWarning = ClassName "fa-warning"
 
 faWechat :: ClassName
-faWechat = className "fa-wechat"
+faWechat = ClassName "fa-wechat"
 
 faWeibo :: ClassName
-faWeibo = className "fa-weibo"
+faWeibo = ClassName "fa-weibo"
 
 faWeixin :: ClassName
-faWeixin = className "fa-weixin"
+faWeixin = ClassName "fa-weixin"
 
 faWhatsapp :: ClassName
-faWhatsapp = className "fa-whatsapp"
+faWhatsapp = ClassName "fa-whatsapp"
 
 faWheelchair :: ClassName
-faWheelchair = className "fa-wheelchair"
+faWheelchair = ClassName "fa-wheelchair"
 
 faWheelchairAlt :: ClassName
-faWheelchairAlt = className "fa-wheelchair-alt"
+faWheelchairAlt = ClassName "fa-wheelchair-alt"
 
 faWifi :: ClassName
-faWifi = className "fa-wifi"
+faWifi = ClassName "fa-wifi"
 
 faWikipediaW :: ClassName
-faWikipediaW = className "fa-wikipedia-w"
+faWikipediaW = ClassName "fa-wikipedia-w"
+
+faWindowClose :: ClassName
+faWindowClose = ClassName "fa-window-close"
+
+faWindowCloseO :: ClassName
+faWindowCloseO = ClassName "fa-window-close-o"
+
+faWindowMaximize :: ClassName
+faWindowMaximize = ClassName "fa-window-maximize"
+
+faWindowMinimize :: ClassName
+faWindowMinimize = ClassName "fa-window-minimize"
+
+faWindowRestore :: ClassName
+faWindowRestore = ClassName "fa-window-restore"
 
 faWindows :: ClassName
-faWindows = className "fa-windows"
+faWindows = ClassName "fa-windows"
 
 faWon :: ClassName
-faWon = className "fa-won"
+faWon = ClassName "fa-won"
 
 faWordpress :: ClassName
-faWordpress = className "fa-wordpress"
+faWordpress = ClassName "fa-wordpress"
 
 faWpbeginner :: ClassName
-faWpbeginner = className "fa-wpbeginner"
+faWpbeginner = ClassName "fa-wpbeginner"
+
+faWpexplorer :: ClassName
+faWpexplorer = ClassName "fa-wpexplorer"
 
 faWpforms :: ClassName
-faWpforms = className "fa-wpforms"
+faWpforms = ClassName "fa-wpforms"
 
 faWrench :: ClassName
-faWrench = className "fa-wrench"
+faWrench = ClassName "fa-wrench"
 
 faXing :: ClassName
-faXing = className "fa-xing"
+faXing = ClassName "fa-xing"
 
 faXingSquare :: ClassName
-faXingSquare = className "fa-xing-square"
+faXingSquare = ClassName "fa-xing-square"
 
 faYCombinator :: ClassName
-faYCombinator = className "fa-y-combinator"
+faYCombinator = ClassName "fa-y-combinator"
 
 faYCombinatorSquare :: ClassName
-faYCombinatorSquare = className "fa-y-combinator-square"
+faYCombinatorSquare = ClassName "fa-y-combinator-square"
 
 faYahoo :: ClassName
-faYahoo = className "fa-yahoo"
+faYahoo = ClassName "fa-yahoo"
 
 faYc :: ClassName
-faYc = className "fa-yc"
+faYc = ClassName "fa-yc"
 
 faYcSquare :: ClassName
-faYcSquare = className "fa-yc-square"
+faYcSquare = ClassName "fa-yc-square"
 
 faYelp :: ClassName
-faYelp = className "fa-yelp"
+faYelp = ClassName "fa-yelp"
 
 faYen :: ClassName
-faYen = className "fa-yen"
+faYen = ClassName "fa-yen"
 
 faYoast :: ClassName
-faYoast = className "fa-yoast"
+faYoast = ClassName "fa-yoast"
 
 faYoutube :: ClassName
-faYoutube = className "fa-youtube"
+faYoutube = ClassName "fa-youtube"
 
 faYoutubePlay :: ClassName
-faYoutubePlay = className "fa-youtube-play"
+faYoutubePlay = ClassName "fa-youtube-play"
 
 faYoutubeSquare :: ClassName
-faYoutubeSquare = className "fa-youtube-square"
+faYoutubeSquare = ClassName "fa-youtube-square"
 
 pullLeft :: ClassName
-pullLeft = className "pull-left"
+pullLeft = ClassName "pull-left"
 
 pullRight :: ClassName
-pullRight = className "pull-right"
+pullRight = ClassName "pull-right"
 
 srOnly :: ClassName
-srOnly = className "sr-only"
+srOnly = ClassName "sr-only"
 
 srOnlyFocusable :: ClassName
-srOnlyFocusable = className "sr-only-focusable"
+srOnlyFocusable = ClassName "sr-only-focusable"
 

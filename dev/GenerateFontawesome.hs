@@ -29,14 +29,14 @@ main = shelly $ do
     echoFileLead = do
       echo "-- | This module provides CSS class names for common FontAwesome 4 classes.\n"
       echo "module Halogen.Themes.FontAwesome4 where\n"
-      echo "import Halogen.HTML (ClassName(), className)\n"
+      echo "import Halogen.HTML.Core (ClassName(..))\n"
 
     mkClassName line =
       let parts = T.split (=='-') line
           remain = T.toTitle <$> tail parts
           methodName = T.intercalate T.empty $ head parts : remain
       in methodName <> " :: ClassName\n"
-          <> methodName <> " = className \"" <> line <> "\"\n"
+          <> methodName <> " = ClassName \"" <> line <> "\"\n"
 
     collectClassSelecter (RuleSet sels rs) =
       filter

@@ -29,14 +29,14 @@ main = shelly $ do
     echoFileLead = do
       echo "-- | This module provides CSS class names for common Bootstrap 4 classes.\n"
       echo "module Halogen.Themes.Bootstrap4 where\n"
-      echo "import Halogen.HTML (ClassName(), className)\n"
+      echo "import Halogen.HTML.Core (ClassName(..))\n"
 
     mkClassName line =
       let parts = T.split (=='-') line
           capitalized = T.toTitle <$> tail parts
           methodName = escapeKeywords $ T.intercalate T.empty $ head parts : capitalized
       in methodName <> " :: ClassName\n"
-          <> methodName <> " = className \"" <> line <> "\"\n"
+          <> methodName <> " = ClassName \"" <> line <> "\"\n"
 
     collectClassSelecter (RuleSet sels rs) =
       filter
